@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "11. Dalbugonj",
+    "union_code": "11",
+    "item_name": "7.1% CHLOROHEXIDINE",
+    "item_code": "MCH051"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "3/Ka, HASINA BEGUM, FWA, 11. Dalbugonj (In-Charge)",
+      "opening_balance": "10",
+      "received": "0",
+      "total": "10",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "10",
+      "distribution": "1",
+      "closing_balance": "9",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "3/Kha, HASINA BEGOM, FWA, 11. Dalbugonj",
+      "opening_balance": "16",
+      "received": "0",
+      "total": "16",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "16",
+      "distribution": "2",
+      "closing_balance": "14",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

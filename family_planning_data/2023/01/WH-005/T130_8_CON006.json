@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "08. Dhankhali",
+    "union_code": "8",
+    "item_name": "Injectables (Vials)",
+    "item_code": "CON006"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "2/Kha, REJBI SULTANA, FWA, 08. Dhankhali",
+      "opening_balance": "40",
+      "received": "20",
+      "total": "60",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "60",
+      "distribution": "30",
+      "closing_balance": "30",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "3/Ka, SAYODA RAJIYA SUMI, FWA, 08. Dhankhali",
+      "opening_balance": "135",
+      "received": "60",
+      "total": "195",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "195",
+      "distribution": "90",
+      "closing_balance": "105",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3/Kha, REJBI SULTANA, FWA, 08. Dhankhali",
+      "opening_balance": "35",
+      "received": "49",
+      "total": "84",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "84",
+      "distribution": "44",
+      "closing_balance": "40",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

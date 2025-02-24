@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Dashmina, Patuakhali",
+    "upazila_id": "T128",
+    "union_name": "04. Dashmina",
+    "union_code": "4",
+    "item_name": "Condom",
+    "item_code": "CON002"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1. No, DIPURANI , FWA, 04. Dashmina",
+      "opening_balance": "1,218",
+      "received": "396",
+      "total": "1,614",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,614",
+      "distribution": "888",
+      "closing_balance": "726",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, SURMA BEGUM, FWA, 04. Dashmina",
+      "opening_balance": "428",
+      "received": "264",
+      "total": "692",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "692",
+      "distribution": "330",
+      "closing_balance": "362",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Kha, BABITA RANI, FWA, 04. Dashmina",
+      "opening_balance": "744",
+      "received": "504",
+      "total": "1,248",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,248",
+      "distribution": "228",
+      "closing_balance": "1,020",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, KAHADIZA BEGUM, FWA, 04. Dashmina",
+      "opening_balance": "198",
+      "received": "96",
+      "total": "294",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "294",
+      "distribution": "96",
+      "closing_balance": "198",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Kha, ISRAT JAHAN, FWA, 04. Dashmina",
+      "opening_balance": "286",
+      "received": "120",
+      "total": "406",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "406",
+      "distribution": "156",
+      "closing_balance": "250",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

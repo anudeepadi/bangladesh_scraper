@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Galachipa, Patuakhali",
+    "upazila_id": "T129",
+    "union_name": "07. Chiknikandi",
+    "union_code": "7",
+    "item_name": "AD Syringe (1ML)",
+    "item_code": "CON001"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, ISMETARA, FWA, FWA, 07. Chiknikandi (In-Charge)",
+      "opening_balance": "56",
+      "received": "4",
+      "total": "60",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "60",
+      "distribution": "15",
+      "closing_balance": "45",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, ISMATARA BEGUM, FWA, 07. Chiknikandi",
+      "opening_balance": "92",
+      "received": "50",
+      "total": "142",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "142",
+      "distribution": "52",
+      "closing_balance": "90",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3/Ka, SABINA EASMIN, FWA, 07. Chiknikandi",
+      "opening_balance": "101",
+      "received": "58",
+      "total": "159",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "159",
+      "distribution": "65",
+      "closing_balance": "94",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

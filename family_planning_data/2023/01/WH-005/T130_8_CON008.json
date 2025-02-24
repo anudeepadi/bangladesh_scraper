@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "08. Dhankhali",
+    "union_code": "8",
+    "item_name": "Shukhi",
+    "item_code": "CON008"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "2/Kha, REJBI SULTANA, FWA, 08. Dhankhali",
+      "opening_balance": "587",
+      "received": "375",
+      "total": "962",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "962",
+      "distribution": "250",
+      "closing_balance": "712",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "3/Ka, SAYODA RAJIYA SUMI, FWA, 08. Dhankhali",
+      "opening_balance": "290",
+      "received": "585",
+      "total": "875",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "875",
+      "distribution": "320",
+      "closing_balance": "555",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3/Kha, REJBI SULTANA, FWA, 08. Dhankhali",
+      "opening_balance": "945",
+      "received": "390",
+      "total": "1,335",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,335",
+      "distribution": "369",
+      "closing_balance": "966",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

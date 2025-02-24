@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Galachipa, Patuakhali",
+    "upazila_id": "T129",
+    "union_name": "15. Charmontaz",
+    "union_code": "15",
+    "item_name": "Shukhi (3rd Gen)",
+    "item_code": "CON010"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, RUBI AKTER RUPA, FWA, 15. Charmontaz (In-Charge)",
+      "opening_balance": "204",
+      "received": "100",
+      "total": "304",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "304",
+      "distribution": "70",
+      "closing_balance": "234",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, RUBI AKTER RUPA, FWA, 15. Charmontaz (In-Charge)",
+      "opening_balance": "349",
+      "received": "0",
+      "total": "349",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "349",
+      "distribution": "58",
+      "closing_balance": "291",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3/Ka, RUBI AKTER RUPA, FWA, 15. Charmontaz",
+      "opening_balance": "245",
+      "received": "0",
+      "total": "245",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "245",
+      "distribution": "49",
+      "closing_balance": "196",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

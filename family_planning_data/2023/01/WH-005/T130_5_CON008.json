@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "05. Nilgonj",
+    "union_code": "5",
+    "item_name": "Shukhi",
+    "item_code": "CON008"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/ Ka, ISRAT JAHAN, FWA, 05. Nilgonj",
+      "opening_balance": "469",
+      "received": "180",
+      "total": "649",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "649",
+      "distribution": "196",
+      "closing_balance": "453",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, MOMOTAJ BEGOM, FWA, 05. Nilgonj",
+      "opening_balance": "816",
+      "received": "375",
+      "total": "1,191",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,191",
+      "distribution": "300",
+      "closing_balance": "891",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2. No, MOMOTAJ BEGOM, FWA, 05. Nilgonj",
+      "opening_balance": "1,114",
+      "received": "690",
+      "total": "1,804",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,804",
+      "distribution": "673",
+      "closing_balance": "1,131",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Kha, SEFALI BEGOM, FWA, 05. Nilgonj",
+      "opening_balance": "504",
+      "received": "360",
+      "total": "864",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "864",
+      "distribution": "156",
+      "closing_balance": "708",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Ka, SEFALI BEGOM, FWA, 05. Nilgonj",
+      "opening_balance": "731",
+      "received": "495",
+      "total": "1,226",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,226",
+      "distribution": "497",
+      "closing_balance": "729",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

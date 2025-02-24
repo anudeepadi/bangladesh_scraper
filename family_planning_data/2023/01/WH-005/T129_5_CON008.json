@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Galachipa, Patuakhali",
+    "upazila_id": "T129",
+    "union_name": "05. Rotandi Taltoly",
+    "union_code": "5",
+    "item_name": "Shukhi",
+    "item_code": "CON008"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, SARMIN BEGUM, FWA, 05. Rotandi Taltoly",
+      "opening_balance": "389",
+      "received": "315",
+      "total": "704",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "704",
+      "distribution": "200",
+      "closing_balance": "504",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, SARMIN BEGUM, FWA, 05. Rotandi Taltoly (In-Charge)",
+      "opening_balance": "503",
+      "received": "210",
+      "total": "713",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "713",
+      "distribution": "200",
+      "closing_balance": "513",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, RAHIMA BEGUM, FWA, 05. Rotandi Taltoly",
+      "opening_balance": "467",
+      "received": "255",
+      "total": "722",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "722",
+      "distribution": "220",
+      "closing_balance": "502",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "2/Kha, KOHINUR BEGUM, FWA, 05. Rotandi Taltoly",
+      "opening_balance": "840",
+      "received": "540",
+      "total": "1,380",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,380",
+      "distribution": "580",
+      "closing_balance": "800",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Ka, REHANA AKTER, FWA, 05. Rotandi Taltoly",
+      "opening_balance": "1,086",
+      "received": "675",
+      "total": "1,761",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,761",
+      "distribution": "500",
+      "closing_balance": "1,261",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

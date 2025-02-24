@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Barguna Sadar, Barguna",
+    "upazila_id": "T135",
+    "union_name": "11. Paurashava",
+    "union_code": "11",
+    "item_name": "Tab. Misoprostol (Dose)",
+    "item_code": "MCH021"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1 No, ANGONA RANI,(INCHARGE), FWA, 11. Paurashava",
+      "opening_balance": "121",
+      "received": "0",
+      "total": "121",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "121",
+      "distribution": "10",
+      "closing_balance": "111",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2 No, MONI RANI,, FWA, 11. Paurashava",
+      "opening_balance": "55",
+      "received": "0",
+      "total": "55",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "55",
+      "distribution": "25",
+      "closing_balance": "30",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3 No, DIPTI RANI,, FWA, 11. Paurashava",
+      "opening_balance": "20",
+      "received": "0",
+      "total": "20",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "20",
+      "distribution": "3",
+      "closing_balance": "17",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

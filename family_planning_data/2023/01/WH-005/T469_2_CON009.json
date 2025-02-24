@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Dumki, Patuakhali",
+    "upazila_id": "T469",
+    "union_name": "02. Lebukhali",
+    "union_code": "2",
+    "item_name": "Oral Pill Apon",
+    "item_code": "CON009"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, HOSHNE ARA , FWA, LEBUKHALI, FWA, 02. Lebukhali (In-Charge)",
+      "opening_balance": "18",
+      "received": "0",
+      "total": "18",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "18",
+      "distribution": "10",
+      "closing_balance": "8",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, HOSNE ARA , FWA, LEBUKHALI, FWA, 02. Lebukhali",
+      "opening_balance": "28",
+      "received": "0",
+      "total": "28",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "28",
+      "distribution": "4",
+      "closing_balance": "24",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, TANIA AKTER, FWA, 02. Lebukhali",
+      "opening_balance": "0",
+      "received": "0",
+      "total": "0",
+      "adj_plus": "19",
+      "adj_minus": "0",
+      "grand_total": "19",
+      "distribution": "10",
+      "closing_balance": "9",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "2/Ka, HOSNEARA BEGUM ,FWA ,LEBUKHALI, FWA, 02. Lebukhali",
+      "opening_balance": "9",
+      "received": "10",
+      "total": "19",
+      "adj_plus": "0",
+      "adj_minus": "19",
+      "grand_total": "0",
+      "distribution": "0",
+      "closing_balance": "0",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": false
+    }
+  ]
+}

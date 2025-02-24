@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "11. Dalbugonj",
+    "union_code": "11",
+    "item_name": "AD Syringe (1ML)",
+    "item_code": "CON001"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "3/Ka, HASINA BEGUM, FWA, 11. Dalbugonj (In-Charge)",
+      "opening_balance": "118",
+      "received": "54",
+      "total": "172",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "172",
+      "distribution": "62",
+      "closing_balance": "110",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "3/Kha, HASINA BEGOM, FWA, 11. Dalbugonj",
+      "opening_balance": "282",
+      "received": "121",
+      "total": "403",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "403",
+      "distribution": "125",
+      "closing_balance": "278",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Betagi, Barguna",
+    "upazila_id": "T136",
+    "union_name": "07. Sarisamuri",
+    "union_code": "7",
+    "item_name": "Shukhi",
+    "item_code": "CON008"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/ No Ward, MST. FATIMA, FWA, 07. Sarisamuri",
+      "opening_balance": "136",
+      "received": "0",
+      "total": "136",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "136",
+      "distribution": "49",
+      "closing_balance": "87",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Kha, MARIOM MILA, FWA, 07. Sarisamuri",
+      "opening_balance": "203",
+      "received": "120",
+      "total": "323",
+      "adj_plus": "0",
+      "adj_minus": "323",
+      "grand_total": "0",
+      "distribution": "0",
+      "closing_balance": "0",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": false
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, MARIOM MILA, FWA, 07. Sarisamuri",
+      "opening_balance": "78",
+      "received": "120",
+      "total": "198",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "198",
+      "distribution": "30",
+      "closing_balance": "168",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/ No Ward, REMA, FWA, 07. Sarisamuri",
+      "opening_balance": "151",
+      "received": "120",
+      "total": "271",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "271",
+      "distribution": "70",
+      "closing_balance": "201",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "2/Kha, TANIA, FWA, 07. Sarisamuri",
+      "opening_balance": "0",
+      "received": "0",
+      "total": "0",
+      "adj_plus": "323",
+      "adj_minus": "0",
+      "grand_total": "323",
+      "distribution": "79",
+      "closing_balance": "244",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

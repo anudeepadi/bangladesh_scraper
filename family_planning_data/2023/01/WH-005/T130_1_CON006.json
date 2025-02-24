@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "01. Chakamoiya",
+    "union_code": "1",
+    "item_name": "Injectables (Vials)",
+    "item_code": "CON006"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1. No, KAMONA RANI ROY, FWA, 01. Chakamoiya",
+      "opening_balance": "294",
+      "received": "9",
+      "total": "303",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "303",
+      "distribution": "100",
+      "closing_balance": "203",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2. No, MAHFUJA BEGOM, FWA, 01. Chakamoiya",
+      "opening_balance": "141",
+      "received": "84",
+      "total": "225",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "225",
+      "distribution": "90",
+      "closing_balance": "135",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3. No, MAHFUJA BEGOM, FWA, FWA, 01. Chakamoiya",
+      "opening_balance": "119",
+      "received": "61",
+      "total": "180",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "180",
+      "distribution": "70",
+      "closing_balance": "110",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

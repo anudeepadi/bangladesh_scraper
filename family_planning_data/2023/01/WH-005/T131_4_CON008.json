@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Mirzaganj, Patuakhali",
+    "upazila_id": "T131",
+    "union_name": "04. Dewli Subidkhali",
+    "union_code": "4",
+    "item_name": "Shukhi",
+    "item_code": "CON008"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, IRIN AKTER, FWA, 04. Dewli Subidkhali",
+      "opening_balance": "527",
+      "received": "210",
+      "total": "737",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "737",
+      "distribution": "218",
+      "closing_balance": "519",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, MUKUL AKTER, FWA, 04. Dewli Subidkhali",
+      "opening_balance": "871",
+      "received": "210",
+      "total": "1,081",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,081",
+      "distribution": "360",
+      "closing_balance": "721",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, MUKUL AKTER, FWA, 04. Dewli Subidkhali (In-Charge)",
+      "opening_balance": "194",
+      "received": "105",
+      "total": "299",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "299",
+      "distribution": "80",
+      "closing_balance": "219",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "2/Kha, RASHIDA BEGUM, FWA, 04. Dewli Subidkhali",
+      "opening_balance": "372",
+      "received": "180",
+      "total": "552",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "552",
+      "distribution": "184",
+      "closing_balance": "368",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Ka, RASHIDA BEGUM, FWA, 04. Dewli Subidkhali (In-Charge)",
+      "opening_balance": "332",
+      "received": "180",
+      "total": "512",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "512",
+      "distribution": "170",
+      "closing_balance": "342",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

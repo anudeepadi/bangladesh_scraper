@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Dumki, Patuakhali",
+    "upazila_id": "T469",
+    "union_name": "03. Angaria",
+    "union_code": "3",
+    "item_name": "Condom",
+    "item_code": "CON002"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1 No, SELINA BEGUM,FWA,ANGARIA), FWA, 03. Angaria (In-Charge)",
+      "opening_balance": "75",
+      "received": "120",
+      "total": "195",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "195",
+      "distribution": "96",
+      "closing_balance": "99",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2 No, NELUFA BEGUM, FWA, ANGARIA, FWA, 03. Angaria",
+      "opening_balance": "120",
+      "received": "60",
+      "total": "180",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "180",
+      "distribution": "72",
+      "closing_balance": "108",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3 No, SELINA BEGUM, FWA, ANGARIA, FWA, 03. Angaria",
+      "opening_balance": "184",
+      "received": "168",
+      "total": "352",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "352",
+      "distribution": "96",
+      "closing_balance": "256",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

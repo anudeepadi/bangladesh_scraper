@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "10. Baliatoly",
+    "union_code": "10",
+    "item_name": "Shukhi (3rd Gen)",
+    "item_code": "CON010"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "2. No, ROKSANA JAHAN, FWA, 10. Baliatoly",
+      "opening_balance": "418",
+      "received": "100",
+      "total": "518",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "518",
+      "distribution": "88",
+      "closing_balance": "430",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "3/Ka, SAYDA UMME HANI KEYA, FWA, 10. Baliatoly",
+      "opening_balance": "205",
+      "received": "100",
+      "total": "305",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "305",
+      "distribution": "60",
+      "closing_balance": "245",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3/Kha, HAWOA BEGOM, FWA, 10. Baliatoly",
+      "opening_balance": "421",
+      "received": "100",
+      "total": "521",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "521",
+      "distribution": "100",
+      "closing_balance": "421",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

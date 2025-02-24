@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Bamna, Barguna",
+    "upazila_id": "T134",
+    "union_name": "02. Bamna",
+    "union_code": "2",
+    "item_name": "Condom",
+    "item_code": "CON002"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1 No, LAMIA, FWA, 02. Bamna (In-Charge)",
+      "opening_balance": "372",
+      "received": "300",
+      "total": "672",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "672",
+      "distribution": "196",
+      "closing_balance": "476",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, LAMIA, FWA, 02. Bamna",
+      "opening_balance": "486",
+      "received": "504",
+      "total": "990",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "990",
+      "distribution": "384",
+      "closing_balance": "606",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Kha, REXONA PERVIN, FWA, 02. Bamna",
+      "opening_balance": "542",
+      "received": "600",
+      "total": "1,142",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,142",
+      "distribution": "432",
+      "closing_balance": "710",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, TASLIMA BEGUM, FWA, 02. Bamna (In-Charge)",
+      "opening_balance": "146",
+      "received": "96",
+      "total": "242",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "242",
+      "distribution": "192",
+      "closing_balance": "50",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Kha, TASLIMA BEGUM, FWA, 02. Bamna",
+      "opening_balance": "222",
+      "received": "108",
+      "total": "330",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "330",
+      "distribution": "120",
+      "closing_balance": "210",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

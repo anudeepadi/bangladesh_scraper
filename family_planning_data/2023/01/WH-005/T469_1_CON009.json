@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Dumki, Patuakhali",
+    "upazila_id": "T469",
+    "union_name": "01. Pangasia",
+    "union_code": "1",
+    "item_name": "Oral Pill Apon",
+    "item_code": "CON009"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1 No, RUMA AKTER, FWA, 01. Pangasia",
+      "opening_balance": "8",
+      "received": "10",
+      "total": "18",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "18",
+      "distribution": "12",
+      "closing_balance": "6",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2 No, SEBANI RANI, FWA, PANGASIA, FWA, 01. Pangasia",
+      "opening_balance": "14",
+      "received": "10",
+      "total": "24",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "24",
+      "distribution": "6",
+      "closing_balance": "18",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3/Ka, AROTI RANI, FWA, PANGASIA, FWA, 01. Pangasia",
+      "opening_balance": "12",
+      "received": "10",
+      "total": "22",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "22",
+      "distribution": "12",
+      "closing_balance": "10",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Kha, AROTI RANI ,FWA PANGASIA, FWA, 01. Pangasia (In-Charge)",
+      "opening_balance": "10",
+      "received": "10",
+      "total": "20",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "20",
+      "distribution": "10",
+      "closing_balance": "10",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Galachipa, Patuakhali",
+    "upazila_id": "T129",
+    "union_name": "04. Panpotti",
+    "union_code": "4",
+    "item_name": "AD Syringe (1ML)",
+    "item_code": "CON001"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, MAMOTAJ BEGUM, FWA, 04. Panpotti",
+      "opening_balance": "27",
+      "received": "20",
+      "total": "47",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "47",
+      "distribution": "20",
+      "closing_balance": "27",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, MAMOTAJ BEGUM, FWA, 04. Panpotti (In-Charge)",
+      "opening_balance": "20",
+      "received": "17",
+      "total": "37",
+      "adj_plus": "0",
+      "adj_minus": "37",
+      "grand_total": "0",
+      "distribution": "0",
+      "closing_balance": "0",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": false
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, JHUMUR RANI, FWA, 04. Panpotti",
+      "opening_balance": "0",
+      "received": "0",
+      "total": "0",
+      "adj_plus": "37",
+      "adj_minus": "0",
+      "grand_total": "37",
+      "distribution": "12",
+      "closing_balance": "25",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, MAMOTAJ BEGUM, FWA, 04. Panpotti (In-Charge)",
+      "opening_balance": "48",
+      "received": "9",
+      "total": "57",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "57",
+      "distribution": "12",
+      "closing_balance": "45",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

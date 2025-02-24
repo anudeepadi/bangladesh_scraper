@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Betagi, Barguna",
+    "upazila_id": "T136",
+    "union_name": "06. Kazirabad",
+    "union_code": "6",
+    "item_name": "Tab. Misoprostol (Dose)",
+    "item_code": "MCH021"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/ No Ward, PIARA AKHTER, FWA, 06. Kazirabad",
+      "opening_balance": "32",
+      "received": "50",
+      "total": "82",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "82",
+      "distribution": "22",
+      "closing_balance": "60",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, MEHERUN NESA MIM, FWA, 06. Kazirabad",
+      "opening_balance": "102",
+      "received": "0",
+      "total": "102",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "102",
+      "distribution": "0",
+      "closing_balance": "102",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Kha, KHALEDA HASI, FWA, 06. Kazirabad",
+      "opening_balance": "34",
+      "received": "50",
+      "total": "84",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "84",
+      "distribution": "28",
+      "closing_balance": "56",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Kha, KRISNA RANI CHOWDHURY, FWA, 06. Kazirabad",
+      "opening_balance": "60",
+      "received": "0",
+      "total": "60",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "60",
+      "distribution": "6",
+      "closing_balance": "54",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Ka, SAHINUR AKTER, FWA, 06. Kazirabad",
+      "opening_balance": "110",
+      "received": "0",
+      "total": "110",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "110",
+      "distribution": "10",
+      "closing_balance": "100",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

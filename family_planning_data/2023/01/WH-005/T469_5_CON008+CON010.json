@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Dumki, Patuakhali",
+    "upazila_id": "T469",
+    "union_name": "05. Sree Rampur",
+    "union_code": "5",
+    "item_name": "Oral Pill (Total)",
+    "item_code": "CON008+CON010"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "2/Kha, ,SULTANA AKTER,FWA,SREE RAMPUR, FWA, 05. Sree Rampur (In-Charge)",
+      "opening_balance": "153",
+      "received": "15",
+      "total": "168",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "168",
+      "distribution": "49",
+      "closing_balance": "119",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "3/Ka, RABEYA AKTER, FWA, 05. Sree Rampur",
+      "opening_balance": "0",
+      "received": "0",
+      "total": "0",
+      "adj_plus": "230",
+      "adj_minus": "0",
+      "grand_total": "230",
+      "distribution": "187",
+      "closing_balance": "43",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3/Kha, SULTANA AKTER, FWA, SREE RUMPUR, FWA, 05. Sree Rampur",
+      "opening_balance": "753",
+      "received": "645",
+      "total": "1,398",
+      "adj_plus": "0",
+      "adj_minus": "100",
+      "grand_total": "1,298",
+      "distribution": "384",
+      "closing_balance": "914",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, SULTANA AKTER, , FWA, 05. Sree Rampur",
+      "opening_balance": "85",
+      "received": "45",
+      "total": "130",
+      "adj_plus": "0",
+      "adj_minus": "130",
+      "grand_total": "0",
+      "distribution": "0",
+      "closing_balance": "0",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": false
+    }
+  ]
+}

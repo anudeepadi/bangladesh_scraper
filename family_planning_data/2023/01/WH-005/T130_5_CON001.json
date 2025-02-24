@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "05. Nilgonj",
+    "union_code": "5",
+    "item_name": "AD Syringe (1ML)",
+    "item_code": "CON001"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/ Ka, ISRAT JAHAN, FWA, 05. Nilgonj",
+      "opening_balance": "157",
+      "received": "65",
+      "total": "222",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "222",
+      "distribution": "72",
+      "closing_balance": "150",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, MOMOTAJ BEGOM, FWA, 05. Nilgonj",
+      "opening_balance": "132",
+      "received": "57",
+      "total": "189",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "189",
+      "distribution": "53",
+      "closing_balance": "136",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2. No, MOMOTAJ BEGOM, FWA, 05. Nilgonj",
+      "opening_balance": "202",
+      "received": "92",
+      "total": "294",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "294",
+      "distribution": "94",
+      "closing_balance": "200",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Kha, SEFALI BEGOM, FWA, 05. Nilgonj",
+      "opening_balance": "85",
+      "received": "67",
+      "total": "152",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "152",
+      "distribution": "51",
+      "closing_balance": "101",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Ka, SEFALI BEGOM, FWA, 05. Nilgonj",
+      "opening_balance": "134",
+      "received": "68",
+      "total": "202",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "202",
+      "distribution": "68",
+      "closing_balance": "134",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

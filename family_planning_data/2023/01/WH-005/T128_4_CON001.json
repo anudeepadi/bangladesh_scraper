@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Dashmina, Patuakhali",
+    "upazila_id": "T128",
+    "union_name": "04. Dashmina",
+    "union_code": "4",
+    "item_name": "AD Syringe (1ML)",
+    "item_code": "CON001"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1. No, DIPURANI , FWA, 04. Dashmina",
+      "opening_balance": "83",
+      "received": "76",
+      "total": "159",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "159",
+      "distribution": "60",
+      "closing_balance": "99",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, SURMA BEGUM, FWA, 04. Dashmina",
+      "opening_balance": "58",
+      "received": "18",
+      "total": "76",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "76",
+      "distribution": "38",
+      "closing_balance": "38",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Kha, BABITA RANI, FWA, 04. Dashmina",
+      "opening_balance": "65",
+      "received": "54",
+      "total": "119",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "119",
+      "distribution": "38",
+      "closing_balance": "81",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, KAHADIZA BEGUM, FWA, 04. Dashmina",
+      "opening_balance": "32",
+      "received": "25",
+      "total": "57",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "57",
+      "distribution": "17",
+      "closing_balance": "40",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Kha, ISRAT JAHAN, FWA, 04. Dashmina",
+      "opening_balance": "50",
+      "received": "16",
+      "total": "66",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "66",
+      "distribution": "22",
+      "closing_balance": "44",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

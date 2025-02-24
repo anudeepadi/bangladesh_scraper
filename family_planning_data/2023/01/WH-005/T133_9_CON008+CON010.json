@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Amtali, Barguna",
+    "upazila_id": "T133",
+    "union_name": "09. Karaibaria",
+    "union_code": "9",
+    "item_name": "Oral Pill (Total)",
+    "item_code": "CON008+CON010"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, SIRIN, FWA, 09. Karaibaria (In-Charge)",
+      "opening_balance": "658",
+      "received": "405",
+      "total": "1,063",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,063",
+      "distribution": "330",
+      "closing_balance": "733",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, SIRIN , FWA, 09. Karaibaria",
+      "opening_balance": "383",
+      "received": "315",
+      "total": "698",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "698",
+      "distribution": "225",
+      "closing_balance": "473",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, BIJALI RANI, FWA, 09. Karaibaria (In-Charge)",
+      "opening_balance": "286",
+      "received": "240",
+      "total": "526",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "526",
+      "distribution": "84",
+      "closing_balance": "442",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, BIJALI RANI, FWA, 09. Karaibaria",
+      "opening_balance": "750",
+      "received": "450",
+      "total": "1,200",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,200",
+      "distribution": "345",
+      "closing_balance": "855",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Kha, SAMSUNNAHAR LOVELY, FWA, 09. Karaibaria",
+      "opening_balance": "786",
+      "received": "450",
+      "total": "1,236",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,236",
+      "distribution": "325",
+      "closing_balance": "911",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

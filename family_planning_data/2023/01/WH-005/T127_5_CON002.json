@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Bauphal, Patuakhali",
+    "upazila_id": "T127",
+    "union_name": "05. Surjamoni",
+    "union_code": "5",
+    "item_name": "Condom",
+    "item_code": "CON002"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, RABEYA MONI, FWA, 05. Surjamoni",
+      "opening_balance": "138",
+      "received": "96",
+      "total": "234",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "234",
+      "distribution": "72",
+      "closing_balance": "162",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, NASIMA BEGUM, FWA, 05. Surjamoni",
+      "opening_balance": "436",
+      "received": "0",
+      "total": "436",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "436",
+      "distribution": "120",
+      "closing_balance": "316",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, ASMA BEGUM, FWA, 05. Surjamoni",
+      "opening_balance": "280",
+      "received": "60",
+      "total": "340",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "340",
+      "distribution": "124",
+      "closing_balance": "216",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, SABINA YESMIN, FWA, 05. Surjamoni",
+      "opening_balance": "264",
+      "received": "96",
+      "total": "360",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "360",
+      "distribution": "160",
+      "closing_balance": "200",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Kha, NAZMA BEGUM, FWA, 05. Surjamoni",
+      "opening_balance": "284",
+      "received": "96",
+      "total": "380",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "380",
+      "distribution": "96",
+      "closing_balance": "284",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

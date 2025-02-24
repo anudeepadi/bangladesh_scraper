@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "07. Latachapli",
+    "union_code": "7",
+    "item_name": "Condom",
+    "item_code": "CON002"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/ Ka, SHAMIMA AKTER, FWA, 07. Latachapli",
+      "opening_balance": "352",
+      "received": "240",
+      "total": "592",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "592",
+      "distribution": "192",
+      "closing_balance": "400",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, KHALADA KHURSID, FWA, 07. Latachapli",
+      "opening_balance": "252",
+      "received": "300",
+      "total": "552",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "552",
+      "distribution": "264",
+      "closing_balance": "288",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, SHAHINUR BEGOM, FWA, 07. Latachapli",
+      "opening_balance": "346",
+      "received": "228",
+      "total": "574",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "574",
+      "distribution": "168",
+      "closing_balance": "406",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "2/Kha, HABIBA AKTER, FWA, 07. Latachapli",
+      "opening_balance": "339",
+      "received": "240",
+      "total": "579",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "579",
+      "distribution": "216",
+      "closing_balance": "363",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3. No, TAHINUR BEGOM, FWA, 07. Latachapli",
+      "opening_balance": "611",
+      "received": "144",
+      "total": "755",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "755",
+      "distribution": "336",
+      "closing_balance": "419",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

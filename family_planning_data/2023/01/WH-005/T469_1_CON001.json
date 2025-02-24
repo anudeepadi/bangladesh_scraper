@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Dumki, Patuakhali",
+    "upazila_id": "T469",
+    "union_name": "01. Pangasia",
+    "union_code": "1",
+    "item_name": "AD Syringe (1ML)",
+    "item_code": "CON001"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1 No, RUMA AKTER, FWA, 01. Pangasia",
+      "opening_balance": "52",
+      "received": "31",
+      "total": "83",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "83",
+      "distribution": "28",
+      "closing_balance": "55",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2 No, SEBANI RANI, FWA, PANGASIA, FWA, 01. Pangasia",
+      "opening_balance": "65",
+      "received": "31",
+      "total": "96",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "96",
+      "distribution": "32",
+      "closing_balance": "64",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3/Ka, AROTI RANI, FWA, PANGASIA, FWA, 01. Pangasia",
+      "opening_balance": "40",
+      "received": "59",
+      "total": "99",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "99",
+      "distribution": "36",
+      "closing_balance": "63",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Kha, AROTI RANI ,FWA PANGASIA, FWA, 01. Pangasia (In-Charge)",
+      "opening_balance": "18",
+      "received": "32",
+      "total": "50",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "50",
+      "distribution": "24",
+      "closing_balance": "26",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "09. Dhulashar",
+    "union_code": "9",
+    "item_name": "Shukhi",
+    "item_code": "CON008"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1. No, NASRIN AKTER, FWA, 09. Dhulashar",
+      "opening_balance": "342",
+      "received": "225",
+      "total": "567",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "567",
+      "distribution": "200",
+      "closing_balance": "367",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2. No, SAMIYA NAJ SRITY, FWA, 09. Dhulashar",
+      "opening_balance": "534",
+      "received": "105",
+      "total": "639",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "639",
+      "distribution": "130",
+      "closing_balance": "509",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3. No, SAMIYA NAJ SRITY, FWA, 09. Dhulashar (In-Charge)",
+      "opening_balance": "225",
+      "received": "30",
+      "total": "255",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "255",
+      "distribution": "50",
+      "closing_balance": "205",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

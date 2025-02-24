@@ -1,0 +1,36 @@
+2025-02-24 11:09:38,746 - FamilyPlanningScraper - INFO - Initializing session by accessing https://elmis.dgfp.gov.bd/dgfplmis_reports/sdpdataviewer/form2_view.php
+2025-02-24 11:09:40,004 - FamilyPlanningScraper - INFO - Successfully initialized session
+2025-02-24 11:09:40,004 - FamilyPlanningScraper - INFO - Fetching warehouses list
+2025-02-24 11:09:41,777 - FamilyPlanningScraper - INFO - Successfully parsed 23 warehouses from JavaScript
+2025-02-24 11:09:41,778 - FamilyPlanningScraper - INFO - Found 23 warehouses
+2025-02-24 11:09:41,781 - FamilyPlanningScraper - INFO - Generated 97 year-month combinations to process
+2025-02-24 11:09:41,782 - FamilyPlanningScraper - INFO - Using sequential processing
+2025-02-24 11:09:41,782 - FamilyPlanningScraper - INFO - 
+==================================================
+Processing data for 2016-12
+==================================================
+2025-02-24 11:09:41,783 - FamilyPlanningScraper - INFO - Starting data collection for December 2016
+2025-02-24 11:09:41,783 - FamilyPlanningScraper - INFO - Processing warehouse: Bandarban RWH for 2016-12
+2025-02-24 11:09:42,043 - FamilyPlanningScraper - INFO - Found 7 upazilas for warehouse Bandarban RWH
+2025-02-24 11:09:42,044 - FamilyPlanningScraper - INFO - Processing upazila: Alikadam, Bandarban
+2025-02-24 11:09:42,305 - FamilyPlanningScraper - INFO - Found 2 unions for upazila Alikadam, Bandarban
+2025-02-24 11:09:42,305 - FamilyPlanningScraper - INFO - Attempting to get data for Shukhi using API
+2025-02-24 11:09:42,307 - FamilyPlanningScraper - INFO - Attempting to get data by directly scraping the web page
+2025-02-24 11:09:42,307 - FamilyPlanningScraper - INFO - Attempting to scrape item data directly from web page
+2025-02-24 11:09:42,571 - FamilyPlanningScraper - WARNING - Could not find data table in HTML
+2025-02-24 11:09:42,573 - FamilyPlanningScraper - INFO - Attempting to get data using primary API endpoint
+2025-02-24 11:09:42,838 - FamilyPlanningScraper - INFO - Attempting to get data by downloading Excel
+2025-02-24 11:09:45,101 - FamilyPlanningScraper - INFO - Attempting to get data for Shukhi by scraping HTML
+2025-02-24 11:09:45,102 - FamilyPlanningScraper - INFO - Attempting to scrape item data directly from web page
+2025-02-24 11:09:45,371 - FamilyPlanningScraper - WARNING - Could not find data table in HTML
+2025-02-24 11:09:47,374 - FamilyPlanningScraper - INFO - Attempting to get data for Shukhi by downloading Excel
+2025-02-24 11:09:49,637 - FamilyPlanningScraper - WARNING - No data found for Shukhi in 01. Alikadam Sadar, Alikadam, Bandarban
+2025-02-24 11:09:50,638 - FamilyPlanningScraper - INFO - Attempting to get data for Shukhi (3rd Gen) using API
+2025-02-24 11:09:50,639 - FamilyPlanningScraper - INFO - Attempting to get data by directly scraping the web page
+2025-02-24 11:09:50,639 - FamilyPlanningScraper - INFO - Attempting to scrape item data directly from web page
+2025-02-24 11:09:50,901 - FamilyPlanningScraper - WARNING - Could not find data table in HTML
+2025-02-24 11:09:50,903 - FamilyPlanningScraper - INFO - Attempting to get data using primary API endpoint
+2025-02-24 11:09:51,168 - FamilyPlanningScraper - INFO - Attempting to get data by downloading Excel
+2025-02-24 11:09:53,430 - FamilyPlanningScraper - INFO - Attempting to get data for Shukhi (3rd Gen) by scraping HTML
+2025-02-24 11:09:53,431 - FamilyPlanningScraper - INFO - Attempting to scrape item data directly from web page
+2025-02-24 11:09:53,693 - FamilyPlanningScraper - WARNING - Could not find data table in HTML

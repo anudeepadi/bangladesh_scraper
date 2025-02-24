@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "06. Mohipur",
+    "union_code": "6",
+    "item_name": "Injectables (Vials)",
+    "item_code": "CON006"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/ Ka, FATEMA TUJJOHRA, FWA, 06. Mohipur",
+      "opening_balance": "90",
+      "received": "51",
+      "total": "141",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "141",
+      "distribution": "42",
+      "closing_balance": "99",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/ Ka, MST. AMINA AKTER BITHI (PAED PEER VOLUNTER), FWA, 06. Mohipur",
+      "opening_balance": "97",
+      "received": "41",
+      "total": "138",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "138",
+      "distribution": "43",
+      "closing_balance": "95",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2. No, HABIBA AKTER, FWA, 06. Mohipur",
+      "opening_balance": "114",
+      "received": "63",
+      "total": "177",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "177",
+      "distribution": "60",
+      "closing_balance": "117",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "07. Latachapli",
+    "union_code": "7",
+    "item_name": "Oral Pill (Total)",
+    "item_code": "CON008+CON010"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/ Ka, SHAMIMA AKTER, FWA, 07. Latachapli",
+      "opening_balance": "779",
+      "received": "265",
+      "total": "1,044",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,044",
+      "distribution": "246",
+      "closing_balance": "798",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, KHALADA KHURSID, FWA, 07. Latachapli",
+      "opening_balance": "685",
+      "received": "220",
+      "total": "905",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "905",
+      "distribution": "274",
+      "closing_balance": "631",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, SHAHINUR BEGOM, FWA, 07. Latachapli",
+      "opening_balance": "738",
+      "received": "250",
+      "total": "988",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "988",
+      "distribution": "250",
+      "closing_balance": "738",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "2/Kha, HABIBA AKTER, FWA, 07. Latachapli",
+      "opening_balance": "589",
+      "received": "210",
+      "total": "799",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "799",
+      "distribution": "354",
+      "closing_balance": "445",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3. No, TAHINUR BEGOM, FWA, 07. Latachapli",
+      "opening_balance": "1,007",
+      "received": "265",
+      "total": "1,272",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,272",
+      "distribution": "338",
+      "closing_balance": "934",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Bauphal, Patuakhali",
+    "upazila_id": "T127",
+    "union_name": "03. Dulia",
+    "union_code": "3",
+    "item_name": "Tab. Misoprostol (Dose)",
+    "item_code": "MCH021"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, JOSNA BEGUM, FWA, 03. Dulia",
+      "opening_balance": "54",
+      "received": "0",
+      "total": "54",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "54",
+      "distribution": "8",
+      "closing_balance": "46",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, JOSNA BEGUM, FWA, 03. Dulia (In-Charge)",
+      "opening_balance": "96",
+      "received": "0",
+      "total": "96",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "96",
+      "distribution": "10",
+      "closing_balance": "86",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Kha, REHANA BEGUM, FWA, 03. Dulia",
+      "opening_balance": "54",
+      "received": "0",
+      "total": "54",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "54",
+      "distribution": "14",
+      "closing_balance": "40",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3, TRISHNA RANI, FWA, 03. Dulia",
+      "opening_balance": "0",
+      "received": "0",
+      "total": "0",
+      "adj_plus": "19",
+      "adj_minus": "0",
+      "grand_total": "19",
+      "distribution": "4",
+      "closing_balance": "15",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3, JOSNA BEGUM, FWA, 03. Dulia (In-Charge)",
+      "opening_balance": "19",
+      "received": "0",
+      "total": "19",
+      "adj_plus": "0",
+      "adj_minus": "19",
+      "grand_total": "0",
+      "distribution": "0",
+      "closing_balance": "0",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": false
+    }
+  ]
+}

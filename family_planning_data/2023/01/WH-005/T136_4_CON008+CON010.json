@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Betagi, Barguna",
+    "upazila_id": "T136",
+    "union_name": "04. Mokamia",
+    "union_code": "4",
+    "item_name": "Oral Pill (Total)",
+    "item_code": "CON008+CON010"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, HABIBA SULTANA, FWA, 04. Mokamia",
+      "opening_balance": "333",
+      "received": "220",
+      "total": "553",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "553",
+      "distribution": "170",
+      "closing_balance": "383",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, SHARMIN, FWA, 04. Mokamia",
+      "opening_balance": "286",
+      "received": "0",
+      "total": "286",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "286",
+      "distribution": "120",
+      "closing_balance": "166",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, NUPUR RANI, FWA, 04. Mokamia",
+      "opening_balance": "310",
+      "received": "120",
+      "total": "430",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "430",
+      "distribution": "240",
+      "closing_balance": "190",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "2/Kha, SUGANDHA RANI, FWA, 04. Mokamia",
+      "opening_balance": "411",
+      "received": "100",
+      "total": "511",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "511",
+      "distribution": "143",
+      "closing_balance": "368",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/ No Ward, MARIAM AKTER KALI, FWA, 04. Mokamia",
+      "opening_balance": "198",
+      "received": "0",
+      "total": "198",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "198",
+      "distribution": "78",
+      "closing_balance": "120",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

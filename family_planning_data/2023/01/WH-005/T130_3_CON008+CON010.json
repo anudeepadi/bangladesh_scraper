@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "03. Lalua",
+    "union_code": "3",
+    "item_name": "Oral Pill (Total)",
+    "item_code": "CON008+CON010"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "2/Kha, LAITU, FWA, 03. Lalua",
+      "opening_balance": "936",
+      "received": "175",
+      "total": "1,111",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,111",
+      "distribution": "136",
+      "closing_balance": "975",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "3/Ka, TASLIMA BEGOM, FWA, 03. Lalua",
+      "opening_balance": "1,349",
+      "received": "130",
+      "total": "1,479",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,479",
+      "distribution": "132",
+      "closing_balance": "1,347",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, ANJUMAN ARA, FWA, 03. Lalua",
+      "opening_balance": "810",
+      "received": "235",
+      "total": "1,045",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,045",
+      "distribution": "190",
+      "closing_balance": "855",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Kha, ANJUMAN ARA, FWA, 03. Lalua",
+      "opening_balance": "562",
+      "received": "160",
+      "total": "722",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "722",
+      "distribution": "84",
+      "closing_balance": "638",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

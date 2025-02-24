@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Galachipa, Patuakhali",
+    "upazila_id": "T129",
+    "union_name": "04. Panpotti",
+    "union_code": "4",
+    "item_name": "Oral Pill Apon",
+    "item_code": "CON009"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, MAMOTAJ BEGUM, FWA, 04. Panpotti",
+      "opening_balance": "38",
+      "received": "0",
+      "total": "38",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "38",
+      "distribution": "10",
+      "closing_balance": "28",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, JHUMUR RANI, FWA, 04. Panpotti",
+      "opening_balance": "0",
+      "received": "0",
+      "total": "0",
+      "adj_plus": "54",
+      "adj_minus": "0",
+      "grand_total": "54",
+      "distribution": "6",
+      "closing_balance": "48",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, MAMOTAJ BEGUM, FWA, 04. Panpotti (In-Charge)",
+      "opening_balance": "4",
+      "received": "50",
+      "total": "54",
+      "adj_plus": "0",
+      "adj_minus": "54",
+      "grand_total": "0",
+      "distribution": "0",
+      "closing_balance": "0",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": false
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, MAMOTAJ BEGUM, FWA, 04. Panpotti (In-Charge)",
+      "opening_balance": "54",
+      "received": "0",
+      "total": "54",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "54",
+      "distribution": "15",
+      "closing_balance": "39",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Mirzaganj, Patuakhali",
+    "upazila_id": "T131",
+    "union_name": "05. Kakrabunia",
+    "union_code": "5",
+    "item_name": "Oral Pill (Total)",
+    "item_code": "CON008+CON010"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, HELENA PERVIN, FWA, 05. Kakrabunia (In-Charge)",
+      "opening_balance": "415",
+      "received": "310",
+      "total": "725",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "725",
+      "distribution": "240",
+      "closing_balance": "485",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, FARIDA BEGUM, FWA, 05. Kakrabunia (In-Charge)",
+      "opening_balance": "453",
+      "received": "150",
+      "total": "603",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "603",
+      "distribution": "188",
+      "closing_balance": "415",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, LIPI AKTER, FWA, 05. Kakrabunia",
+      "opening_balance": "577",
+      "received": "285",
+      "total": "862",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "862",
+      "distribution": "227",
+      "closing_balance": "635",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, HELENA PERVIN, FWA, 05. Kakrabunia",
+      "opening_balance": "446",
+      "received": "340",
+      "total": "786",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "786",
+      "distribution": "194",
+      "closing_balance": "592",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Kha, FARIDA BEGUM, FWA, 05. Kakrabunia",
+      "opening_balance": "437",
+      "received": "255",
+      "total": "692",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "692",
+      "distribution": "210",
+      "closing_balance": "482",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

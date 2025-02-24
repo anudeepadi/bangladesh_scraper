@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Galachipa, Patuakhali",
+    "upazila_id": "T129",
+    "union_name": "14. Charbissas",
+    "union_code": "14",
+    "item_name": "Oral Pill (Total)",
+    "item_code": "CON008+CON010"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, KHALEDA KHANAM, FWA, 14. Charbissas",
+      "opening_balance": "661",
+      "received": "150",
+      "total": "811",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "811",
+      "distribution": "210",
+      "closing_balance": "601",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, KAMRUNNEHAR HAPPY, FWA, 14. Charbissas",
+      "opening_balance": "818",
+      "received": "210",
+      "total": "1,028",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,028",
+      "distribution": "210",
+      "closing_balance": "818",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, KAKULY AKTER, FWA, 14. Charbissas",
+      "opening_balance": "535",
+      "received": "90",
+      "total": "625",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "625",
+      "distribution": "160",
+      "closing_balance": "465",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, NASIMA BEGUM, FWA, 14. Charbissas",
+      "opening_balance": "1,150",
+      "received": "315",
+      "total": "1,465",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "1,465",
+      "distribution": "410",
+      "closing_balance": "1,055",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

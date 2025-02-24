@@ -1,0 +1,10 @@
+2025-02-24 11:23:57,280 - FamilyPlanningScraper - INFO - Initializing session by accessing https://elmis.dgfp.gov.bd/dgfplmis_reports/sdpdataviewer/form2_view.php
+2025-02-24 11:23:58,524 - FamilyPlanningScraper - INFO - Successfully initialized session
+2025-02-24 11:23:58,525 - FamilyPlanningScraper - INFO - Fetching warehouses list
+2025-02-24 11:24:00,231 - FamilyPlanningScraper - INFO - Successfully parsed 23 warehouses from JavaScript
+2025-02-24 11:24:00,232 - FamilyPlanningScraper - INFO - Found 23 warehouses
+2025-02-24 11:24:00,235 - FamilyPlanningScraper - INFO - Generated 0 year-month combinations to process
+2025-02-24 11:24:00,236 - FamilyPlanningScraper - INFO - Filtering to process only warehouse: Bandarban RWH (ID: WH-011)
+2025-02-24 11:24:00,237 - FamilyPlanningScraper - INFO - Using sequential processing
+2025-02-24 11:24:00,238 - FamilyPlanningScraper - INFO - Data collection complete!
+2025-02-24 11:24:00,238 - FamilyPlanningScraper - WARNING - No summary log provided for statistics generation

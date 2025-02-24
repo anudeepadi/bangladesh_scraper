@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Amtali, Barguna",
+    "upazila_id": "T133",
+    "union_name": "09. Karaibaria",
+    "union_code": "9",
+    "item_name": "Injectables (Vials)",
+    "item_code": "CON006"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, SIRIN, FWA, 09. Karaibaria (In-Charge)",
+      "opening_balance": "69",
+      "received": "51",
+      "total": "120",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "120",
+      "distribution": "40",
+      "closing_balance": "80",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, SIRIN , FWA, 09. Karaibaria",
+      "opening_balance": "56",
+      "received": "25",
+      "total": "81",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "81",
+      "distribution": "25",
+      "closing_balance": "56",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, BIJALI RANI, FWA, 09. Karaibaria (In-Charge)",
+      "opening_balance": "17",
+      "received": "10",
+      "total": "27",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "27",
+      "distribution": "0",
+      "closing_balance": "27",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, BIJALI RANI, FWA, 09. Karaibaria",
+      "opening_balance": "79",
+      "received": "38",
+      "total": "117",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "117",
+      "distribution": "40",
+      "closing_balance": "77",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "3/Kha, SAMSUNNAHAR LOVELY, FWA, 09. Karaibaria",
+      "opening_balance": "56",
+      "received": "19",
+      "total": "75",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "75",
+      "distribution": "31",
+      "closing_balance": "44",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

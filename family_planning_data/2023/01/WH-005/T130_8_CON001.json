@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "08. Dhankhali",
+    "union_code": "8",
+    "item_name": "AD Syringe (1ML)",
+    "item_code": "CON001"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "2/Kha, REJBI SULTANA, FWA, 08. Dhankhali",
+      "opening_balance": "46",
+      "received": "20",
+      "total": "66",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "66",
+      "distribution": "30",
+      "closing_balance": "36",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "3/Ka, SAYODA RAJIYA SUMI, FWA, 08. Dhankhali",
+      "opening_balance": "155",
+      "received": "60",
+      "total": "215",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "215",
+      "distribution": "100",
+      "closing_balance": "115",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3/Kha, REJBI SULTANA, FWA, 08. Dhankhali",
+      "opening_balance": "44",
+      "received": "49",
+      "total": "93",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "93",
+      "distribution": "44",
+      "closing_balance": "49",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

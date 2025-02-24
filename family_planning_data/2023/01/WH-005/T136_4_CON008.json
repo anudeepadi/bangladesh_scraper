@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Betagi, Barguna",
+    "upazila_id": "T136",
+    "union_name": "04. Mokamia",
+    "union_code": "4",
+    "item_name": "Shukhi",
+    "item_code": "CON008"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, HABIBA SULTANA, FWA, 04. Mokamia",
+      "opening_balance": "165",
+      "received": "120",
+      "total": "285",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "285",
+      "distribution": "90",
+      "closing_balance": "195",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, SHARMIN, FWA, 04. Mokamia",
+      "opening_balance": "90",
+      "received": "0",
+      "total": "90",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "90",
+      "distribution": "40",
+      "closing_balance": "50",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, NUPUR RANI, FWA, 04. Mokamia",
+      "opening_balance": "211",
+      "received": "120",
+      "total": "331",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "331",
+      "distribution": "200",
+      "closing_balance": "131",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/ No Ward, MARIAM AKTER KALI, FWA, 04. Mokamia",
+      "opening_balance": "83",
+      "received": "0",
+      "total": "83",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "83",
+      "distribution": "18",
+      "closing_balance": "65",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "5",
+      "facility": "2/Kha, SUGANDHA RANI, FWA, 04. Mokamia",
+      "opening_balance": "221",
+      "received": "0",
+      "total": "221",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "221",
+      "distribution": "43",
+      "closing_balance": "178",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

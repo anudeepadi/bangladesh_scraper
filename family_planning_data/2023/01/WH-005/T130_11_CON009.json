@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Kalapara, Patuakhali",
+    "upazila_id": "T130",
+    "union_name": "11. Dalbugonj",
+    "union_code": "11",
+    "item_name": "Oral Pill Apon",
+    "item_code": "CON009"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "3/Ka, HASINA BEGUM, FWA, 11. Dalbugonj (In-Charge)",
+      "opening_balance": "251",
+      "received": "0",
+      "total": "251",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "251",
+      "distribution": "14",
+      "closing_balance": "237",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "3/Kha, HASINA BEGOM, FWA, 11. Dalbugonj",
+      "opening_balance": "313",
+      "received": "0",
+      "total": "313",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "313",
+      "distribution": "20",
+      "closing_balance": "293",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

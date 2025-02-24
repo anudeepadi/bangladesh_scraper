@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Patharghata, Barguna",
+    "upazila_id": "T137",
+    "union_name": "02. Nachnapara",
+    "union_code": "2",
+    "item_name": "Shukhi",
+    "item_code": "CON008"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1 No, JALI AKTER, FWA, 02. Nachnapara",
+      "opening_balance": "439",
+      "received": "150",
+      "total": "589",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "589",
+      "distribution": "182",
+      "closing_balance": "407",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "2/Ka, JALI AKTER, FWA, 2/KA, NACHNAPARA (IN-CHARGE), FWA, 02. Nachnapara",
+      "opening_balance": "420",
+      "received": "165",
+      "total": "585",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "585",
+      "distribution": "228",
+      "closing_balance": "357",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "3 No, JALI AKTER, FWA, 3 NO, NACHNAPARA (IN-CHARGE), FWA, 02. Nachnapara",
+      "opening_balance": "406",
+      "received": "165",
+      "total": "571",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "571",
+      "distribution": "192",
+      "closing_balance": "379",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}

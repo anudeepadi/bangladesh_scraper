@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "year": "2023",
+    "month": "01",
+    "warehouse_name": "Patuakhali RWH",
+    "warehouse_id": "WH-005",
+    "upazila_name": "Galachipa, Patuakhali",
+    "upazila_id": "T129",
+    "union_name": "18. Galachipa Paurashava",
+    "union_code": "18",
+    "item_name": "Shukhi",
+    "item_code": "CON008"
+  },
+  "data": [
+    {
+      "serial": "1",
+      "facility": "1/Ka, UMMEMARIA, FWA, 18. Galachipa Paurashava",
+      "opening_balance": "599",
+      "received": "330",
+      "total": "929",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "929",
+      "distribution": "300",
+      "closing_balance": "629",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "2",
+      "facility": "1/Kha, PARVIN AKTER MONI, FWA, 18. Galachipa Paurashava (In-Charge)",
+      "opening_balance": "310",
+      "received": "150",
+      "total": "460",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "460",
+      "distribution": "150",
+      "closing_balance": "310",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "3",
+      "facility": "2/Ka, PARVIN AKTER MONI, FWA, 18. Galachipa Paurashava",
+      "opening_balance": "300",
+      "received": "150",
+      "total": "450",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "450",
+      "distribution": "160",
+      "closing_balance": "290",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    },
+    {
+      "serial": "4",
+      "facility": "3/Ka, MAKSUDA MAHARANI, FWA, 18. Galachipa Paurashava",
+      "opening_balance": "577",
+      "received": "210",
+      "total": "787",
+      "adj_plus": "0",
+      "adj_minus": "0",
+      "grand_total": "787",
+      "distribution": "328",
+      "closing_balance": "459",
+      "stock_out_reason": "",
+      "stock_out_days": "",
+      "eligible": true
+    }
+  ]
+}
