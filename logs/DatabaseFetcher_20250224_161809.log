@@ -1,0 +1,96 @@
+2025-02-24 16:18:09,868 - DatabaseFetcher - INFO - Database connection successful
+2025-02-24 16:18:09,877 - DatabaseFetcher - INFO - Generated 36 year-month combinations to process
+2025-02-24 16:18:09,877 - DatabaseFetcher - INFO - Filtering to process only warehouse: Dhaka CWH (ID: WH-017)
+2025-02-24 16:18:09,882 - DatabaseFetcher - INFO - Using concurrent processing with 4 workers
+2025-02-24 16:18:09,886 - DatabaseFetcher - INFO - 
+==================================================
+Processing data for 2020-01
+==================================================
+2025-02-24 16:18:09,886 - DatabaseFetcher - INFO - Processing warehouse: Dhaka CWH for 2020-01
+2025-02-24 16:18:09,886 - DatabaseFetcher - INFO - 
+==================================================
+Processing data for 2020-02
+==================================================
+2025-02-24 16:18:09,886 - DatabaseFetcher - INFO - 
+==================================================
+Processing data for 2020-03
+==================================================
+2025-02-24 16:18:09,895 - DatabaseFetcher - INFO - Processing warehouse: Dhaka CWH for 2020-02
+2025-02-24 16:18:09,895 - DatabaseFetcher - INFO - 
+==================================================
+Processing data for 2020-04
+==================================================
+2025-02-24 16:18:09,895 - DatabaseFetcher - INFO - Processing warehouse: Dhaka CWH for 2020-03
+2025-02-24 16:18:09,901 - DatabaseFetcher - INFO - Processing warehouse: Dhaka CWH for 2020-04
+2025-02-24 16:18:10,176 - DatabaseFetcher - INFO - Found 37 upazilas for warehouse Dhaka CWH
+2025-02-24 16:18:10,176 - DatabaseFetcher - INFO - Processing upazila: Araihazar, Narayanganj
+2025-02-24 16:18:10,481 - DatabaseFetcher - INFO - Found 12 unions for upazila Araihazar, Narayanganj
+2025-02-24 16:18:10,481 - DatabaseFetcher - INFO - Getting available item tabs for union 01. Satgram
+2025-02-24 16:18:10,833 - DatabaseFetcher - INFO - Found 12 item tabs
+2025-02-24 16:18:10,838 - DatabaseFetcher - INFO - Processing item Shukhi for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:11,681 - DatabaseFetcher - INFO - Found 37 upazilas for warehouse Dhaka CWH
+2025-02-24 16:18:11,683 - DatabaseFetcher - INFO - Processing upazila: Araihazar, Narayanganj
+2025-02-24 16:18:11,684 - DatabaseFetcher - INFO - Found 37 upazilas for warehouse Dhaka CWH
+2025-02-24 16:18:11,688 - DatabaseFetcher - INFO - Processing upazila: Araihazar, Narayanganj
+2025-02-24 16:18:11,691 - DatabaseFetcher - INFO - Found 37 upazilas for warehouse Dhaka CWH
+2025-02-24 16:18:11,691 - DatabaseFetcher - INFO - Processing upazila: Araihazar, Narayanganj
+2025-02-24 16:18:11,975 - DatabaseFetcher - INFO - Found 12 unions for upazila Araihazar, Narayanganj
+2025-02-24 16:18:11,975 - DatabaseFetcher - INFO - Found 12 unions for upazila Araihazar, Narayanganj
+2025-02-24 16:18:11,975 - DatabaseFetcher - INFO - Getting available item tabs for union 01. Satgram
+2025-02-24 16:18:11,982 - DatabaseFetcher - INFO - Found 12 unions for upazila Araihazar, Narayanganj
+2025-02-24 16:18:11,982 - DatabaseFetcher - INFO - Getting available item tabs for union 01. Satgram
+2025-02-24 16:18:11,983 - DatabaseFetcher - INFO - Getting available item tabs for union 01. Satgram
+2025-02-24 16:18:12,332 - DatabaseFetcher - INFO - Found 12 item tabs
+2025-02-24 16:18:12,332 - DatabaseFetcher - INFO - Processing item Shukhi for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:12,335 - DatabaseFetcher - INFO - Found 12 item tabs
+2025-02-24 16:18:12,335 - DatabaseFetcher - INFO - Found 12 item tabs
+2025-02-24 16:18:12,335 - DatabaseFetcher - INFO - Processing item Shukhi for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:12,335 - DatabaseFetcher - INFO - Processing item Shukhi for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:12,746 - DatabaseFetcher - INFO - Inserted 8 records for Shukhi in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:13,262 - DatabaseFetcher - INFO - Processing item Shukhi (3rd Gen) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:13,537 - DatabaseFetcher - INFO - Inserted 8 records for Shukhi in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:13,615 - DatabaseFetcher - INFO - Inserted 8 records for Shukhi in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:13,839 - DatabaseFetcher - INFO - Inserted 8 records for Shukhi in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:14,370 - DatabaseFetcher - INFO - Processing item Shukhi (3rd Gen) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:14,556 - DatabaseFetcher - INFO - Inserted 8 records for Shukhi (3rd Gen) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:14,774 - DatabaseFetcher - INFO - Processing item Shukhi (3rd Gen) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:14,839 - DatabaseFetcher - INFO - Processing item Shukhi (3rd Gen) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:15,416 - DatabaseFetcher - INFO - Processing item Oral Pill (Total) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:15,447 - DatabaseFetcher - INFO - Inserted 8 records for Shukhi (3rd Gen) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:16,031 - DatabaseFetcher - INFO - Inserted 8 records for Shukhi (3rd Gen) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:16,621 - DatabaseFetcher - INFO - Inserted 8 records for Shukhi (3rd Gen) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:16,763 - DatabaseFetcher - INFO - Processing item Oral Pill (Total) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:17,035 - DatabaseFetcher - INFO - Inserted 8 records for Oral Pill (Total) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:17,226 - DatabaseFetcher - INFO - Processing item Oral Pill (Total) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:17,268 - DatabaseFetcher - INFO - Processing item Oral Pill (Total) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:18,330 - DatabaseFetcher - INFO - Processing item Oral Pill Apon for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:18,374 - DatabaseFetcher - INFO - Inserted 8 records for Oral Pill (Total) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:18,530 - DatabaseFetcher - INFO - Inserted 8 records for Oral Pill (Total) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:19,026 - DatabaseFetcher - INFO - Inserted 8 records for Oral Pill (Total) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:19,331 - DatabaseFetcher - INFO - Processing item Oral Pill Apon for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:19,822 - DatabaseFetcher - INFO - Inserted 8 records for Oral Pill Apon in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:19,924 - DatabaseFetcher - INFO - Processing item Oral Pill Apon for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:20,359 - DatabaseFetcher - INFO - Inserted 8 records for Oral Pill Apon in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:20,446 - DatabaseFetcher - INFO - Processing item Oral Pill Apon for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:20,938 - DatabaseFetcher - INFO - Processing item Condom for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:21,611 - DatabaseFetcher - INFO - Processing item Condom for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:22,083 - DatabaseFetcher - INFO - Inserted 8 records for Condom in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:22,332 - DatabaseFetcher - INFO - Inserted 8 records for Oral Pill Apon in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:22,489 - DatabaseFetcher - INFO - Inserted 8 records for Oral Pill Apon in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:22,747 - DatabaseFetcher - INFO - Inserted 8 records for Condom in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:22,859 - DatabaseFetcher - INFO - Processing item Injectables (Vials) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:22,877 - DatabaseFetcher - INFO - Processing item Condom for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:23,340 - DatabaseFetcher - INFO - Processing item Condom for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:24,044 - DatabaseFetcher - INFO - Inserted 8 records for Injectables (Vials) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:24,240 - DatabaseFetcher - INFO - Processing item Injectables (Vials) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:24,774 - DatabaseFetcher - INFO - Processing item AD Syringe (1ML) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:25,501 - DatabaseFetcher - INFO - Inserted 8 records for Condom in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:26,158 - DatabaseFetcher - INFO - Inserted 8 records for AD Syringe (1ML) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:26,232 - DatabaseFetcher - INFO - Inserted 8 records for Injectables (Vials) in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:26,369 - DatabaseFetcher - INFO - Inserted 8 records for Condom in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:26,567 - DatabaseFetcher - INFO - Processing item Injectables (Vials) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:26,746 - DatabaseFetcher - INFO - Processing item ECP for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:27,267 - DatabaseFetcher - INFO - Processing item Injectables (Vials) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:27,715 - DatabaseFetcher - INFO - Processing item AD Syringe (1ML) for 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:28,255 - DatabaseFetcher - INFO - Inserted 8 records for ECP in 01. Satgram, Araihazar, Narayanganj
+2025-02-24 16:18:28,453 - DatabaseFetcher - INFO - Inserted 8 records for Injectables (Vials) in 01. Satgram, Araihazar, Narayanganj

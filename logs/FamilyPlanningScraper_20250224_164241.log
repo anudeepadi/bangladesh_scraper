@@ -1,0 +1,451 @@
+2025-02-24 16:42:41,389 - FamilyPlanningScraper - INFO - Initializing session by accessing https://elmis.dgfp.gov.bd/dgfplmis_reports/sdpdataviewer/form2_view.php
+2025-02-24 16:42:43,528 - FamilyPlanningScraper - INFO - Successfully initialized session
+2025-02-24 16:42:43,528 - FamilyPlanningScraper - INFO - Fetching warehouses list
+2025-02-24 16:42:48,207 - FamilyPlanningScraper - INFO - Successfully parsed 23 warehouses from JavaScript
+2025-02-24 16:42:48,207 - FamilyPlanningScraper - INFO - Found 23 warehouses
+2025-02-24 16:42:48,335 - FamilyPlanningScraper - INFO - Date ranges: [('2020', '01'), ('2020', '02'), ('2020', '03'), ('2020', '04'), ('2020', '05'), ('2020', '06'), ('2020', '07'), ('2020', '08'), ('2020', '09'), ('2020', '10'), ('2020', '11'), ('2020', '12'), ('2021', '01'), ('2021', '02'), ('2021', '03'), ('2021', '04'), ('2021', '05'), ('2021', '06'), ('2021', '07'), ('2021', '08'), ('2021', '09'), ('2021', '10'), ('2021', '11'), ('2021', '12'), ('2022', '01'), ('2022', '02'), ('2022', '03'), ('2022', '04'), ('2022', '05'), ('2022', '06'), ('2022', '07'), ('2022', '08'), ('2022', '09'), ('2022', '10'), ('2022', '11'), ('2022', '12')]
+2025-02-24 16:42:49,203 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:42:49,203 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:42:49,547 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:50,726 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:42:50,726 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:42:50,726 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:42:50,736 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:42:50,736 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:42:50,737 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:42:50,956 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:42:51,001 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:51,015 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:51,018 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:51,244 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:51,712 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:42:51,860 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:42:51,991 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:52,050 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:42:52,146 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:52,315 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:42:52,334 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:52,599 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:53,460 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:42:53,599 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:42:53,743 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:53,878 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:53,878 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:42:53,916 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:42:54,251 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:54,251 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:54,653 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:42:54,903 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:42:54,936 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:54,957 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:42:55,185 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:55,230 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:55,780 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:42:56,096 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:56,178 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:42:56,178 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:42:56,268 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:42:56,512 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:56,512 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:57,143 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:42:57,481 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:42:57,549 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:57,813 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:57,834 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:58,090 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:42:58,391 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:58,843 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:42:58,886 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:42:59,075 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:42:59,181 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:59,181 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:59,466 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:42:59,705 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:00,098 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:00,171 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:00,212 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:00,428 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:00,476 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:00,491 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:00,775 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:01,310 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:01,623 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:01,849 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:02,245 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:02,316 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:02,318 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:02,542 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:02,603 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:02,610 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:02,817 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:03,257 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:03,520 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:03,600 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:03,638 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:03,807 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:03,870 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:03,917 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:04,157 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:04,645 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:04,836 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:04,958 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:04,985 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:05,112 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:05,271 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:05,520 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:05,827 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:06,055 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:06,265 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:06,328 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:06,515 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:06,530 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:06,546 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:06,621 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:07,320 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:07,663 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:08,697 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:09,618 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:09,618 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:09,920 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:10,640 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:10,644 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:10,832 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:10,922 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:10,972 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:10,985 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:11,112 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:11,272 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:11,537 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:11,825 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:11,986 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:12,004 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:12,010 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:12,236 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:12,271 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:12,287 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:12,510 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:12,573 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:12,890 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:13,363 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:13,387 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:13,538 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:13,641 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:13,668 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:13,826 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:14,079 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:14,427 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:14,524 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:14,842 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:14,962 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:15,053 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:15,352 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:15,352 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:15,528 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:15,564 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:15,866 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:15,866 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:16,249 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:16,580 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:16,926 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:16,942 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:17,257 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:17,266 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:17,266 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:17,605 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:17,678 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:18,013 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:18,738 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:18,746 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:18,857 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:19,001 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:19,015 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:19,036 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:19,134 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:19,869 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:20,147 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:20,243 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:20,529 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:20,539 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:20,881 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:20,881 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:21,363 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:21,701 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:21,879 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:22,192 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:22,203 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:22,203 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:22,470 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:22,486 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:22,502 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:22,823 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:23,470 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:23,525 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:23,595 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:23,743 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:23,803 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:23,879 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:23,882 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:24,260 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:24,377 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:24,470 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:24,659 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:24,753 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:24,954 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:25,171 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:25,230 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:25,451 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:25,924 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:26,343 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:26,391 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:26,539 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:26,683 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:26,820 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:27,622 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:27,934 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:28,458 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:28,458 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:28,766 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:29,424 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:29,510 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:29,515 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:29,519 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:29,790 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:29,796 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:30,657 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:30,881 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:30,940 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:31,167 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:31,226 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:31,226 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:31,448 - FamilyPlanningScraper - INFO - Converted 7 rows from aaData format
+2025-02-24 16:43:31,514 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:31,882 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:31,948 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:32,244 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:32,244 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:33,040 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:33,279 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:33,323 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:33,562 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:33,684 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:33,974 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:34,440 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:34,525 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:34,783 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:34,800 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:34,811 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:35,115 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:35,447 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:35,567 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:35,567 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:35,726 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:35,849 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:36,195 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:36,234 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:36,536 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:36,536 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:36,911 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:37,148 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:37,200 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:37,247 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:37,433 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:37,536 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:38,081 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:38,275 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:38,370 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:38,490 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:38,560 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:38,737 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:38,781 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:39,019 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:39,728 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:39,765 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:39,956 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:40,011 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:40,051 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:40,139 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:40,425 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:41,433 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:41,602 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:41,617 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:41,722 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:41,879 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:41,912 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:42,514 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:42,565 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:42,595 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:42,893 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:42,893 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:42,893 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:43,516 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:43,591 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:43,800 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:44,010 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:44,319 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:45,064 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:45,112 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:45,112 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:45,354 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:45,388 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:45,402 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:46,163 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:46,181 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:46,186 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:46,225 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:46,466 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:46,468 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:46,510 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:46,602 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:46,992 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:47,229 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:47,419 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:47,513 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:47,703 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:47,901 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:48,211 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:48,343 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:48,623 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:48,825 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:49,069 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:43:49,114 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:49,451 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:50,158 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:43:50,469 - FamilyPlanningScraper - INFO - Converted 8 rows from aaData format
+2025-02-24 16:43:50,482 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:50,784 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:52,161 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:52,528 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:52,528 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:52,537 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:52,836 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:53,139 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:53,426 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:53,904 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:53,920 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:54,071 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:54,271 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:43:54,271 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:54,271 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:43:54,353 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:54,396 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:43:54,558 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:54,686 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:55,398 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:55,637 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:43:55,660 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:55,688 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:55,930 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:55,948 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:56,139 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:43:56,530 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:56,767 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:56,841 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:57,139 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:57,139 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:57,151 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:43:57,440 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:57,474 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:43:57,762 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:57,861 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:58,153 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:58,369 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:58,680 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:58,939 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:43:58,997 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:43:59,052 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:43:59,283 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:59,289 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:59,331 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:43:59,573 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:43:59,897 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:00,068 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:44:00,150 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:44:00,356 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:00,441 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:00,727 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:44:00,991 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:44:01,021 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:01,053 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:44:01,339 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:01,339 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:01,589 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:44:01,612 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:44:01,880 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:01,897 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:02,014 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:44:02,361 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:02,710 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:44:03,069 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:03,248 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:44:03,516 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:44:03,532 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:03,801 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:04,297 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:44:04,592 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:04,609 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:44:04,891 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:05,032 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:44:05,226 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:44:05,226 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:44:05,322 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:05,512 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:05,595 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:44:05,802 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:44:05,879 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:06,099 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:06,543 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:44:06,634 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:44:06,747 - FamilyPlanningScraper - INFO - Fetching data for item MCH051 via API
+2025-02-24 16:44:06,832 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:06,918 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:07,596 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:44:07,945 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:44:07,966 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:08,295 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:08,307 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:44:08,615 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:08,615 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:09,166 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:44:09,449 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:09,480 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:44:09,601 - FamilyPlanningScraper - INFO - Fetching data for item MCH012 via API
+2025-02-24 16:44:09,832 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:09,888 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:10,536 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:44:10,863 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:10,948 - FamilyPlanningScraper - INFO - Fetching data for item MCH018 via API
+2025-02-24 16:44:11,263 - FamilyPlanningScraper - INFO - Converted 5 rows from aaData format
+2025-02-24 16:44:12,192 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:44:12,193 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:44:12,394 - FamilyPlanningScraper - INFO - Fetching data for item CON006 via API
+2025-02-24 16:44:12,481 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:12,684 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:12,737 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:44:12,737 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:44:13,108 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:13,248 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:44:13,619 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:13,914 - FamilyPlanningScraper - INFO - Fetching data for item CON001 via API
+2025-02-24 16:44:14,187 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:14,241 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:44:14,458 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:44:14,514 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:14,731 - FamilyPlanningScraper - INFO - Parsed 12 items from HTML response
+2025-02-24 16:44:14,742 - FamilyPlanningScraper - INFO - Fetching data for item CON008 via API
+2025-02-24 16:44:14,742 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:15,034 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:15,080 - FamilyPlanningScraper - INFO - Fetching data for item CON003 via API
+2025-02-24 16:44:15,272 - FamilyPlanningScraper - INFO - Fetching data for item CON008+CON010 via API
+2025-02-24 16:44:15,357 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:15,664 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:15,785 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:44:16,180 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:16,294 - FamilyPlanningScraper - INFO - Fetching data for item CON009 via API
+2025-02-24 16:44:16,554 - FamilyPlanningScraper - INFO - Fetching data for item CON010 via API
+2025-02-24 16:44:16,581 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:16,697 - FamilyPlanningScraper - INFO - Fetching data for item MCH021 via API
+2025-02-24 16:44:16,837 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:16,980 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:17,214 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
+2025-02-24 16:44:17,513 - FamilyPlanningScraper - INFO - Converted 4 rows from aaData format
+2025-02-24 16:44:17,576 - FamilyPlanningScraper - INFO - Fetching data for item CON002 via API
