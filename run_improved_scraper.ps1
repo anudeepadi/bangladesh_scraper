@@ -2,12 +2,12 @@
 
 # Get command line arguments
 param(
-    [string]$start = "2020-01",
-    [string]$end = "2022-12",
+    [string]$start = "2017-01",
+    [string]$end = "2025-01",
     [string]$resume = "",
     [int]$workers = 4,
     [int]$retries = 5,
-    [string]$warehouse = "Dhaka CWH",
+    [string]$warehouse = "",
     [switch]$resetProgress,
     [switch]$skipTableCreation
 )

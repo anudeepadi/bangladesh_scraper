@@ -1,0 +1,740 @@
+2025-02-24 18:36:23,071 - ImprovedDBScraper - INFO - Loaded progress data from scraper_progress.pkl
+2025-02-24 18:36:23,085 - ImprovedDBScraper - INFO - Form_F2_Data table exists
+2025-02-24 18:36:23,089 - ImprovedDBScraper - INFO - Database connection successful
+2025-02-24 18:36:23,093 - ImprovedDBScraper - INFO - Generated 97 year-month combinations to process
+2025-02-24 18:36:23,094 - ImprovedDBScraper - INFO - Auto-resuming from local progress: 2020-02
+2025-02-24 18:36:23,094 - ImprovedDBScraper - INFO - Filtering to process only warehouse: Dhaka CWH (ID: WH-017)
+2025-02-24 18:36:23,094 - ImprovedDBScraper - INFO - Using concurrent processing with 4 workers
+2025-02-24 18:36:23,095 - ImprovedDBScraper - INFO - 
+==================================================
+Processing data for 2020-02
+==================================================
+2025-02-24 18:36:23,096 - ImprovedDBScraper - INFO - 
+==================================================
+Processing data for 2020-03
+==================================================
+2025-02-24 18:36:23,096 - ImprovedDBScraper - INFO - Processing warehouse: Dhaka CWH for 2020-02
+2025-02-24 18:36:23,096 - ImprovedDBScraper - INFO - 
+==================================================
+Processing data for 2020-04
+==================================================
+2025-02-24 18:36:23,096 - ImprovedDBScraper - INFO - Processing warehouse: Dhaka CWH for 2020-03
+2025-02-24 18:36:23,096 - ImprovedDBScraper - INFO - 
+==================================================
+Processing data for 2020-05
+==================================================
+2025-02-24 18:36:23,097 - ImprovedDBScraper - INFO - Processing warehouse: Dhaka CWH for 2020-04
+2025-02-24 18:36:23,098 - ImprovedDBScraper - INFO - Processing warehouse: Dhaka CWH for 2020-05
+2025-02-24 18:36:23,376 - ImprovedDBScraper - INFO - Found 37 upazilas for warehouse Dhaka CWH
+2025-02-24 18:36:23,376 - ImprovedDBScraper - INFO - Processing upazila: Araihazar, Narayanganj
+2025-02-24 18:36:23,654 - ImprovedDBScraper - INFO - Found 12 unions for upazila Araihazar, Narayanganj
+2025-02-24 18:36:23,654 - ImprovedDBScraper - INFO - Union 01. Satgram already processed. Skipping.
+2025-02-24 18:36:24,547 - ImprovedDBScraper - INFO - Found 37 upazilas for warehouse Dhaka CWH
+2025-02-24 18:36:24,547 - ImprovedDBScraper - INFO - Processing upazila: Araihazar, Narayanganj
+2025-02-24 18:36:24,606 - ImprovedDBScraper - INFO - Found 37 upazilas for warehouse Dhaka CWH
+2025-02-24 18:36:24,606 - ImprovedDBScraper - INFO - Processing upazila: Araihazar, Narayanganj
+2025-02-24 18:36:24,672 - ImprovedDBScraper - INFO - Found 37 upazilas for warehouse Dhaka CWH
+2025-02-24 18:36:24,672 - ImprovedDBScraper - INFO - Processing upazila: Araihazar, Narayanganj
+2025-02-24 18:36:24,820 - ImprovedDBScraper - INFO - Found 12 unions for upazila Araihazar, Narayanganj
+2025-02-24 18:36:24,820 - ImprovedDBScraper - INFO - Union 01. Satgram already processed. Skipping.
+2025-02-24 18:36:24,887 - ImprovedDBScraper - INFO - Found 12 unions for upazila Araihazar, Narayanganj
+2025-02-24 18:36:24,887 - ImprovedDBScraper - INFO - Union 01. Satgram already processed. Skipping.
+2025-02-24 18:36:24,954 - ImprovedDBScraper - INFO - Found 12 unions for upazila Araihazar, Narayanganj
+2025-02-24 18:36:24,954 - ImprovedDBScraper - INFO - Union 01. Satgram already processed. Skipping.
+2025-02-24 18:36:25,590 - ImprovedDBScraper - INFO - Union 02. Duptara already processed. Skipping.
+2025-02-24 18:36:27,048 - ImprovedDBScraper - INFO - Union 02. Duptara already processed. Skipping.
+2025-02-24 18:36:27,619 - ImprovedDBScraper - INFO - Union 02. Duptara already processed. Skipping.
+2025-02-24 18:36:27,668 - ImprovedDBScraper - INFO - Processing union: 02. Duptara
+2025-02-24 18:36:27,668 - ImprovedDBScraper - INFO - Getting available item tabs for union 02. Duptara
+2025-02-24 18:36:27,953 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:36:27,953 - ImprovedDBScraper - INFO - Processing item Shukhi for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:28,123 - ImprovedDBScraper - INFO - Union 03. Bramondi already processed. Skipping.
+2025-02-24 18:36:28,327 - ImprovedDBScraper - INFO - Inserted 7 records for Shukhi in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:28,669 - ImprovedDBScraper - INFO - Union 03. Bramondi already processed. Skipping.
+2025-02-24 18:36:28,895 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:29,249 - ImprovedDBScraper - INFO - Inserted 7 records for Shukhi (3rd Gen) in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:29,827 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:29,934 - ImprovedDBScraper - INFO - Union 03. Bramondi already processed. Skipping.
+2025-02-24 18:36:30,194 - ImprovedDBScraper - INFO - Inserted 7 records for Oral Pill (Total) in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:31,072 - ImprovedDBScraper - INFO - Union 04. Araihazar already processed. Skipping.
+2025-02-24 18:36:31,161 - ImprovedDBScraper - INFO - Union 04. Araihazar already processed. Skipping.
+2025-02-24 18:36:31,534 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:31,904 - ImprovedDBScraper - INFO - Inserted 7 records for Oral Pill Apon in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:32,450 - ImprovedDBScraper - INFO - Union 04. Araihazar already processed. Skipping.
+2025-02-24 18:36:32,469 - ImprovedDBScraper - INFO - Processing item Condom for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:32,822 - ImprovedDBScraper - INFO - Inserted 7 records for Condom in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:33,347 - ImprovedDBScraper - INFO - Processing union: 05. Fatehpur
+2025-02-24 18:36:33,347 - ImprovedDBScraper - INFO - Getting available item tabs for union 05. Fatehpur
+2025-02-24 18:36:33,507 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:33,620 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:36:33,620 - ImprovedDBScraper - INFO - Item Shukhi for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:33,994 - ImprovedDBScraper - INFO - Processing union: 05. Fatehpur
+2025-02-24 18:36:33,994 - ImprovedDBScraper - INFO - Getting available item tabs for union 05. Fatehpur
+2025-02-24 18:36:34,276 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:36:34,276 - ImprovedDBScraper - INFO - Item Shukhi for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:34,435 - ImprovedDBScraper - INFO - Processing union: 05. Fatehpur
+2025-02-24 18:36:34,435 - ImprovedDBScraper - INFO - Getting available item tabs for union 05. Fatehpur
+2025-02-24 18:36:34,721 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:36:34,722 - ImprovedDBScraper - INFO - Item Shukhi for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:34,880 - ImprovedDBScraper - INFO - Item Shukhi (3rd Gen) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:34,928 - ImprovedDBScraper - INFO - Item Shukhi (3rd Gen) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:34,945 - ImprovedDBScraper - INFO - Inserted 7 records for Injectables (Vials) in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:35,495 - ImprovedDBScraper - INFO - Item Shukhi (3rd Gen) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:35,629 - ImprovedDBScraper - INFO - Item Oral Pill (Total) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:35,797 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:35,966 - ImprovedDBScraper - INFO - Item Oral Pill (Total) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:36,141 - ImprovedDBScraper - INFO - Inserted 7 records for AD Syringe (1ML) in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:36,421 - ImprovedDBScraper - INFO - Item Oral Pill (Total) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:36,670 - ImprovedDBScraper - INFO - Item Oral Pill Apon for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:36,708 - ImprovedDBScraper - INFO - Item Oral Pill Apon for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:36,742 - ImprovedDBScraper - INFO - Processing item ECP for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:37,106 - ImprovedDBScraper - INFO - Inserted 7 records for ECP in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:37,354 - ImprovedDBScraper - INFO - Item Condom for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:37,532 - ImprovedDBScraper - INFO - Item Oral Pill Apon for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:37,700 - ImprovedDBScraper - INFO - Item Condom for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:37,839 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:38,078 - ImprovedDBScraper - INFO - Item Condom for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:38,189 - ImprovedDBScraper - INFO - Inserted 7 records for Tab. Misoprostol (Dose) in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:38,652 - ImprovedDBScraper - INFO - Item Injectables (Vials) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:38,794 - ImprovedDBScraper - INFO - Item Injectables (Vials) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:38,824 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:39,177 - ImprovedDBScraper - INFO - Inserted 7 records for 7.1% CHLOROHEXIDINE in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:39,435 - ImprovedDBScraper - INFO - Item Injectables (Vials) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:39,974 - ImprovedDBScraper - INFO - Item AD Syringe (1ML) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:40,051 - ImprovedDBScraper - INFO - Item AD Syringe (1ML) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:40,208 - ImprovedDBScraper - INFO - Item AD Syringe (1ML) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:40,512 - ImprovedDBScraper - INFO - Item ECP for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:40,608 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:40,958 - ImprovedDBScraper - INFO - Inserted 7 records for MNP(SUSSET) in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:41,192 - ImprovedDBScraper - INFO - Item ECP for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:41,256 - ImprovedDBScraper - INFO - Item ECP for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:41,363 - ImprovedDBScraper - INFO - Item Tab. Misoprostol (Dose) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:41,939 - ImprovedDBScraper - INFO - Item Tab. Misoprostol (Dose) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:41,959 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:42,176 - ImprovedDBScraper - INFO - Item Tab. Misoprostol (Dose) for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:42,231 - ImprovedDBScraper - INFO - Item 7.1% CHLOROHEXIDINE for 05. Fatehpur, Araihazar, Narayanganj already processed. Skipping.
+2025-02-24 18:36:42,299 - ImprovedDBScraper - INFO - Inserted 7 records for Iron-Folic Acid (NOS)  in 02. Duptara, Araihazar, Narayanganj
+2025-02-24 18:36:43,149 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:43,317 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:43,472 - ImprovedDBScraper - INFO - Inserted 4 records for MNP(SUSSET) in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:43,570 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:43,907 - ImprovedDBScraper - INFO - Inserted 4 records for 7.1% CHLOROHEXIDINE in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:44,559 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:44,746 - ImprovedDBScraper - INFO - Inserted 4 records for 7.1% CHLOROHEXIDINE in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:44,881 - ImprovedDBScraper - INFO - Inserted 4 records for Iron-Folic Acid (NOS)  in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:45,334 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:45,554 - ImprovedDBScraper - INFO - Processing union: 03. Bramondi
+2025-02-24 18:36:45,556 - ImprovedDBScraper - INFO - Getting available item tabs for union 03. Bramondi
+2025-02-24 18:36:45,649 - ImprovedDBScraper - INFO - Inserted 4 records for MNP(SUSSET) in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:45,839 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:36:45,839 - ImprovedDBScraper - INFO - Processing item Shukhi for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:46,147 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:46,203 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:46,234 - ImprovedDBScraper - INFO - Inserted 8 records for Shukhi in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:46,459 - ImprovedDBScraper - INFO - Inserted 4 records for MNP(SUSSET) in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:46,517 - ImprovedDBScraper - INFO - Inserted 4 records for Iron-Folic Acid (NOS)  in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:47,530 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:47,615 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:47,896 - ImprovedDBScraper - INFO - Inserted 8 records for Shukhi (3rd Gen) in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:47,929 - ImprovedDBScraper - INFO - Inserted 4 records for Iron-Folic Acid (NOS)  in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:36:48,532 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:48,913 - ImprovedDBScraper - INFO - Inserted 8 records for Oral Pill (Total) in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:48,971 - ImprovedDBScraper - INFO - Processing union: 06. Sodasodi
+2025-02-24 18:36:48,971 - ImprovedDBScraper - INFO - Getting available item tabs for union 06. Sodasodi
+2025-02-24 18:36:49,253 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:36:49,254 - ImprovedDBScraper - INFO - Processing item Shukhi for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:49,429 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:49,604 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:49,807 - ImprovedDBScraper - INFO - Inserted 8 records for Oral Pill Apon in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:50,100 - ImprovedDBScraper - INFO - Processing union: 06. Sodasodi
+2025-02-24 18:36:50,100 - ImprovedDBScraper - INFO - Getting available item tabs for union 06. Sodasodi
+2025-02-24 18:36:50,380 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:36:50,380 - ImprovedDBScraper - INFO - Processing item Shukhi for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:50,416 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:50,722 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:50,790 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:50,834 - ImprovedDBScraper - INFO - Processing item Condom for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:51,203 - ImprovedDBScraper - INFO - Inserted 8 records for Condom in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:51,492 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:51,722 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:51,845 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:52,063 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:52,170 - ImprovedDBScraper - INFO - Processing union: 06. Sodasodi
+2025-02-24 18:36:52,170 - ImprovedDBScraper - INFO - Getting available item tabs for union 06. Sodasodi
+2025-02-24 18:36:52,448 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:36:52,448 - ImprovedDBScraper - INFO - Processing item Shukhi for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:52,535 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:52,781 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:52,909 - ImprovedDBScraper - INFO - Inserted 8 records for Injectables (Vials) in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:53,050 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:53,406 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:53,525 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:53,878 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:54,042 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:54,253 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:54,379 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:54,463 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:54,611 - ImprovedDBScraper - INFO - Inserted 8 records for AD Syringe (1ML) in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:54,812 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:54,845 - ImprovedDBScraper - INFO - Processing item Condom for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:54,975 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:55,194 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:55,196 - ImprovedDBScraper - INFO - Processing item ECP for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:55,304 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:55,567 - ImprovedDBScraper - INFO - Inserted 8 records for ECP in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:55,639 - ImprovedDBScraper - INFO - Processing item Condom for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:56,000 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:56,218 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:56,448 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:56,558 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:56,789 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:56,805 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:57,110 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:57,163 - ImprovedDBScraper - INFO - Inserted 8 records for Tab. Misoprostol (Dose) in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:57,450 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:57,572 - ImprovedDBScraper - INFO - Processing item Condom for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:57,810 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:57,869 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:57,901 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:58,154 - ImprovedDBScraper - INFO - Inserted 8 records for 7.1% CHLOROHEXIDINE in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:58,207 - ImprovedDBScraper - INFO - Inserted 6 records for AD Syringe (1ML) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:58,805 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:58,906 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:59,143 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:59,240 - ImprovedDBScraper - INFO - Inserted 6 records for AD Syringe (1ML) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:59,391 - ImprovedDBScraper - INFO - Processing item ECP for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:59,559 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:36:59,731 - ImprovedDBScraper - INFO - Inserted 6 records for ECP in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:36:59,904 - ImprovedDBScraper - INFO - Inserted 8 records for MNP(SUSSET) in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:37:00,472 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:00,529 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:00,606 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:37:00,721 - ImprovedDBScraper - INFO - Processing item ECP for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:00,806 - ImprovedDBScraper - INFO - Inserted 6 records for AD Syringe (1ML) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:00,871 - ImprovedDBScraper - INFO - Inserted 6 records for Tab. Misoprostol (Dose) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:01,718 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:02,058 - ImprovedDBScraper - INFO - Inserted 6 records for 7.1% CHLOROHEXIDINE in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:02,124 - ImprovedDBScraper - INFO - Inserted 8 records for Iron-Folic Acid (NOS)  in 03. Bramondi, Araihazar, Narayanganj
+2025-02-24 18:37:02,138 - ImprovedDBScraper - INFO - Processing item ECP for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:02,216 - ImprovedDBScraper - INFO - Inserted 6 records for ECP in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:02,462 - ImprovedDBScraper - INFO - Inserted 6 records for ECP in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:02,600 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:02,940 - ImprovedDBScraper - INFO - Inserted 6 records for MNP(SUSSET) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:03,000 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:03,351 - ImprovedDBScraper - INFO - Inserted 6 records for Tab. Misoprostol (Dose) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:03,855 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:04,197 - ImprovedDBScraper - INFO - Inserted 6 records for Tab. Misoprostol (Dose) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:04,242 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:04,588 - ImprovedDBScraper - INFO - Inserted 6 records for Iron-Folic Acid (NOS)  in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:04,604 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:04,847 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:04,928 - ImprovedDBScraper - INFO - Inserted 6 records for 7.1% CHLOROHEXIDINE in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:05,174 - ImprovedDBScraper - INFO - Inserted 6 records for 7.1% CHLOROHEXIDINE in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:05,193 - ImprovedDBScraper - INFO - Processing union: 04. Araihazar
+2025-02-24 18:37:05,194 - ImprovedDBScraper - INFO - Getting available item tabs for union 04. Araihazar
+2025-02-24 18:37:05,477 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:05,477 - ImprovedDBScraper - INFO - Processing item Shukhi for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:05,690 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:05,724 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:05,819 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:06,019 - ImprovedDBScraper - INFO - Inserted 6 records for MNP(SUSSET) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:06,048 - ImprovedDBScraper - INFO - Inserted 6 records for MNP(SUSSET) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:06,850 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:06,956 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:07,068 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:07,173 - ImprovedDBScraper - INFO - Inserted 6 records for Iron-Folic Acid (NOS)  in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:07,295 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:07,388 - ImprovedDBScraper - INFO - Inserted 6 records for Iron-Folic Acid (NOS)  in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:07,625 - ImprovedDBScraper - INFO - Processing union: 07. Bishnandi
+2025-02-24 18:37:07,625 - ImprovedDBScraper - INFO - Getting available item tabs for union 07. Bishnandi
+2025-02-24 18:37:07,806 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:07,908 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:07,908 - ImprovedDBScraper - INFO - Processing item Shukhi for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:08,249 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:08,325 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:08,931 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:09,087 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:09,285 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:09,426 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:09,505 - ImprovedDBScraper - INFO - Processing union: 07. Bishnandi
+2025-02-24 18:37:09,506 - ImprovedDBScraper - INFO - Getting available item tabs for union 07. Bishnandi
+2025-02-24 18:37:09,792 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:09,792 - ImprovedDBScraper - INFO - Processing item Shukhi for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:10,057 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:10,098 - ImprovedDBScraper - INFO - Processing union: 07. Bishnandi
+2025-02-24 18:37:10,098 - ImprovedDBScraper - INFO - Getting available item tabs for union 07. Bishnandi
+2025-02-24 18:37:10,117 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:10,379 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:10,379 - ImprovedDBScraper - INFO - Processing item Shukhi for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:10,407 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:10,589 - ImprovedDBScraper - INFO - Processing item Condom for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:10,722 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:10,735 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:10,929 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:11,060 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:11,082 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:11,407 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:11,547 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:11,890 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:12,138 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:12,169 - ImprovedDBScraper - INFO - Processing item Condom for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:12,485 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:12,491 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:12,511 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:12,830 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:13,003 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:13,069 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:13,339 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:13,372 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:13,407 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:13,415 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:13,732 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:13,783 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:13,992 - ImprovedDBScraper - INFO - Processing item ECP for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:14,012 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:14,329 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:14,342 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:14,456 - ImprovedDBScraper - INFO - Processing item Condom for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:14,482 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:14,813 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:14,837 - ImprovedDBScraper - INFO - Inserted 6 records for AD Syringe (1ML) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:15,133 - ImprovedDBScraper - INFO - Processing item Condom for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:15,251 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:15,475 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:15,588 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:15,742 - ImprovedDBScraper - INFO - Processing item ECP for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:16,008 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:16,092 - ImprovedDBScraper - INFO - Inserted 6 records for ECP in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:16,339 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:16,424 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:16,490 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:16,764 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:16,831 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:17,129 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:17,476 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:17,479 - ImprovedDBScraper - INFO - Inserted 6 records for Tab. Misoprostol (Dose) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:17,527 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:17,816 - ImprovedDBScraper - INFO - Inserted 6 records for AD Syringe (1ML) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:17,856 - ImprovedDBScraper - INFO - Inserted 6 records for AD Syringe (1ML) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:18,003 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:18,338 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:18,469 - ImprovedDBScraper - INFO - Processing item ECP for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:18,788 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:18,800 - ImprovedDBScraper - INFO - Inserted 6 records for ECP in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:19,101 - ImprovedDBScraper - INFO - Processing item ECP for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:19,121 - ImprovedDBScraper - INFO - Inserted 6 records for 7.1% CHLOROHEXIDINE in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:19,184 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:19,417 - ImprovedDBScraper - INFO - Inserted 6 records for ECP in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:19,517 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 04. Araihazar, Araihazar, Narayanganj
+2025-02-24 18:37:19,924 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:20,259 - ImprovedDBScraper - INFO - Inserted 6 records for Tab. Misoprostol (Dose) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:20,281 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:20,376 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:20,619 - ImprovedDBScraper - INFO - Inserted 6 records for Tab. Misoprostol (Dose) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:20,708 - ImprovedDBScraper - INFO - Inserted 6 records for MNP(SUSSET) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:21,239 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:21,570 - ImprovedDBScraper - INFO - Inserted 6 records for 7.1% CHLOROHEXIDINE in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:21,617 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:21,941 - ImprovedDBScraper - INFO - Inserted 6 records for 7.1% CHLOROHEXIDINE in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:22,150 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:22,497 - ImprovedDBScraper - INFO - Inserted 6 records for Iron-Folic Acid (NOS)  in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:22,837 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:22,984 - ImprovedDBScraper - INFO - Processing union: 05. Fatehpur
+2025-02-24 18:37:22,984 - ImprovedDBScraper - INFO - Getting available item tabs for union 05. Fatehpur
+2025-02-24 18:37:23,195 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:23,267 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:23,267 - ImprovedDBScraper - INFO - Processing item Shukhi for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:23,280 - ImprovedDBScraper - INFO - Inserted 6 records for MNP(SUSSET) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:23,671 - ImprovedDBScraper - INFO - Inserted 4 records for Shukhi in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:24,553 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:24,767 - ImprovedDBScraper - INFO - Inserted 6 records for MNP(SUSSET) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:24,885 - ImprovedDBScraper - INFO - Inserted 6 records for Iron-Folic Acid (NOS)  in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:25,153 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:25,443 - ImprovedDBScraper - INFO - Processing union: 08. Mahmudpur
+2025-02-24 18:37:25,443 - ImprovedDBScraper - INFO - Getting available item tabs for union 08. Mahmudpur
+2025-02-24 18:37:25,480 - ImprovedDBScraper - INFO - Inserted 4 records for Shukhi (3rd Gen) in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:25,496 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:25,726 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:25,726 - ImprovedDBScraper - INFO - Processing item Shukhi for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:25,856 - ImprovedDBScraper - INFO - Inserted 6 records for Iron-Folic Acid (NOS)  in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:37:26,087 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:26,455 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:26,775 - ImprovedDBScraper - INFO - Inserted 4 records for Oral Pill (Total) in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:27,452 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:27,800 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:28,100 - ImprovedDBScraper - INFO - Processing union: 08. Mahmudpur
+2025-02-24 18:37:28,100 - ImprovedDBScraper - INFO - Getting available item tabs for union 08. Mahmudpur
+2025-02-24 18:37:28,223 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:28,384 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:28,385 - ImprovedDBScraper - INFO - Processing item Shukhi for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:28,546 - ImprovedDBScraper - INFO - Inserted 4 records for Oral Pill Apon in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:28,721 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:28,748 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:29,082 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:29,383 - ImprovedDBScraper - INFO - Processing item Condom for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:29,663 - ImprovedDBScraper - INFO - Processing union: 08. Mahmudpur
+2025-02-24 18:37:29,664 - ImprovedDBScraper - INFO - Getting available item tabs for union 08. Mahmudpur
+2025-02-24 18:37:29,714 - ImprovedDBScraper - INFO - Inserted 4 records for Condom in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:29,948 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:29,948 - ImprovedDBScraper - INFO - Processing item Shukhi for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:29,956 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:30,264 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:30,278 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:30,436 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:30,661 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:30,766 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:30,966 - ImprovedDBScraper - INFO - Inserted 4 records for Injectables (Vials) in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:31,030 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:31,351 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:31,607 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:31,634 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:31,817 - ImprovedDBScraper - INFO - Processing item Condom for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:31,917 - ImprovedDBScraper - INFO - Inserted 4 records for AD Syringe (1ML) in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:31,962 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:31,970 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:32,291 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:32,422 - ImprovedDBScraper - INFO - Processing item ECP for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:32,544 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:32,735 - ImprovedDBScraper - INFO - Inserted 4 records for ECP in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:32,853 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:33,268 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:33,537 - ImprovedDBScraper - INFO - Processing item Condom for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:33,677 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:33,883 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:33,987 - ImprovedDBScraper - INFO - Inserted 4 records for Tab. Misoprostol (Dose) in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:34,045 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:34,171 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:34,356 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:34,509 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:35,050 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:35,165 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:35,319 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:35,382 - ImprovedDBScraper - INFO - Inserted 4 records for 7.1% CHLOROHEXIDINE in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:35,456 - ImprovedDBScraper - INFO - Processing item Condom for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:35,486 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:35,644 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:35,778 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:36,147 - ImprovedDBScraper - INFO - Processing item ECP for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:36,333 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:36,461 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:36,654 - ImprovedDBScraper - INFO - Inserted 4 records for MNP(SUSSET) in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:36,991 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:37,048 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:37,133 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:37,318 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:37,362 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:37,475 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:37,888 - ImprovedDBScraper - INFO - Processing item ECP for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:38,113 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:38,214 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:38,417 - ImprovedDBScraper - INFO - Inserted 4 records for Iron-Folic Acid (NOS)  in 05. Fatehpur, Araihazar, Narayanganj
+2025-02-24 18:37:38,805 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:38,821 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:39,126 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:39,133 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:39,157 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:39,450 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:39,727 - ImprovedDBScraper - INFO - Processing item ECP for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:39,735 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:39,956 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:40,048 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:40,050 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:40,281 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:40,940 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:41,262 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:41,271 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:41,540 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:41,598 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:41,867 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:42,169 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:42,511 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:42,700 - ImprovedDBScraper - INFO - Processing union: 06. Sodasodi
+2025-02-24 18:37:42,701 - ImprovedDBScraper - INFO - Getting available item tabs for union 06. Sodasodi
+2025-02-24 18:37:42,930 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:42,989 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:42,990 - ImprovedDBScraper - INFO - Processing item Shukhi for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:43,272 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:43,328 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:43,745 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:43,931 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:44,081 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:44,264 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:44,668 - ImprovedDBScraper - INFO - Processing union: 09. Haijadi
+2025-02-24 18:37:44,669 - ImprovedDBScraper - INFO - Getting available item tabs for union 09. Haijadi
+2025-02-24 18:37:44,956 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:44,957 - ImprovedDBScraper - INFO - Processing item Shukhi for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:45,284 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:45,315 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:45,619 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:37:45,664 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:46,013 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:46,088 - ImprovedDBScraper - INFO - Processing union: 09. Haijadi
+2025-02-24 18:37:46,090 - ImprovedDBScraper - INFO - Getting available item tabs for union 09. Haijadi
+2025-02-24 18:37:46,380 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:46,380 - ImprovedDBScraper - INFO - Processing item Shukhi for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:46,681 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:46,719 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:46,753 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:47,030 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:47,095 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:47,723 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:48,072 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:48,371 - ImprovedDBScraper - INFO - Processing item Condom for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:48,524 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:48,730 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:48,865 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:48,874 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:49,135 - ImprovedDBScraper - INFO - Processing union: 09. Haijadi
+2025-02-24 18:37:49,135 - ImprovedDBScraper - INFO - Getting available item tabs for union 09. Haijadi
+2025-02-24 18:37:49,198 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:49,393 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:49,421 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:37:49,422 - ImprovedDBScraper - INFO - Processing item Shukhi for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:49,703 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:49,758 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:49,767 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:49,891 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:50,037 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:50,230 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:50,551 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:50,917 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:51,133 - ImprovedDBScraper - INFO - Processing item Condom for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:51,263 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:51,476 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:51,481 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:51,600 - ImprovedDBScraper - INFO - Inserted 6 records for AD Syringe (1ML) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:51,656 - ImprovedDBScraper - INFO - Processing item Condom for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:51,848 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:51,997 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:52,172 - ImprovedDBScraper - INFO - Processing item ECP for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:52,255 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:52,515 - ImprovedDBScraper - INFO - Inserted 6 records for ECP in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:52,607 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:52,642 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:52,978 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:53,136 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:53,314 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:53,486 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:53,620 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:53,659 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:53,959 - ImprovedDBScraper - INFO - Inserted 6 records for Tab. Misoprostol (Dose) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:54,290 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:54,294 - ImprovedDBScraper - INFO - Processing item Condom for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:54,524 - ImprovedDBScraper - INFO - Processing item ECP for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:54,602 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:54,626 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:54,640 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:54,936 - ImprovedDBScraper - INFO - Inserted 6 records for 7.1% CHLOROHEXIDINE in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:55,135 - ImprovedDBScraper - INFO - Processing item ECP for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:55,318 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:55,476 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:55,537 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:55,656 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:55,886 - ImprovedDBScraper - INFO - Inserted 6 records for MNP(SUSSET) in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:56,290 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:56,764 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:56,801 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:56,879 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:56,958 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:57,088 - ImprovedDBScraper - INFO - Inserted 6 records for Iron-Folic Acid (NOS)  in 06. Sodasodi, Araihazar, Narayanganj
+2025-02-24 18:37:57,169 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:57,211 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:57,826 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:58,162 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:58,405 - ImprovedDBScraper - INFO - Processing item ECP for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:58,644 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:58,732 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:59,334 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:59,667 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:59,704 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:37:59,998 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:00,010 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:00,181 - ImprovedDBScraper - INFO - Processing union: 07. Bishnandi
+2025-02-24 18:38:00,183 - ImprovedDBScraper - INFO - Getting available item tabs for union 07. Bishnandi
+2025-02-24 18:38:00,346 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:00,473 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:38:00,473 - ImprovedDBScraper - INFO - Processing item Shukhi for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:00,483 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:00,541 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:00,814 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:00,829 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:00,864 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:00,866 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:01,200 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:01,353 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:01,711 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:02,104 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:02,206 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:02,439 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:02,528 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:02,971 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:03,316 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:03,635 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:03,789 - ImprovedDBScraper - INFO - Processing union: 10. Uchitpura
+2025-02-24 18:38:03,789 - ImprovedDBScraper - INFO - Getting available item tabs for union 10. Uchitpura
+2025-02-24 18:38:03,962 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 09. Haijadi, Araihazar, Narayanganj
+2025-02-24 18:38:04,072 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:38:04,072 - ImprovedDBScraper - INFO - Processing item Shukhi for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:04,269 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:04,421 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:04,598 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:05,753 - ImprovedDBScraper - INFO - Processing item Condom for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:05,866 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:05,962 - ImprovedDBScraper - INFO - Processing union: 10. Uchitpura
+2025-02-24 18:38:05,962 - ImprovedDBScraper - INFO - Getting available item tabs for union 10. Uchitpura
+2025-02-24 18:38:06,103 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:06,210 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:06,931 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:07,284 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:07,396 - ImprovedDBScraper - INFO - Processing union: 10. Uchitpura
+2025-02-24 18:38:07,396 - ImprovedDBScraper - INFO - Getting available item tabs for union 10. Uchitpura
+2025-02-24 18:38:07,610 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:07,634 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:38:07,634 - ImprovedDBScraper - INFO - Processing item Shukhi for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:07,681 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:38:07,682 - ImprovedDBScraper - INFO - Processing item Shukhi for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:07,958 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:07,970 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:08,023 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:08,644 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:08,679 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:08,704 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:09,000 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:09,018 - ImprovedDBScraper - INFO - Inserted 6 records for AD Syringe (1ML) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:09,071 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:09,506 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:09,511 - ImprovedDBScraper - INFO - Processing item Condom for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:09,848 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:09,855 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:09,909 - ImprovedDBScraper - INFO - Processing item ECP for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:10,140 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:10,249 - ImprovedDBScraper - INFO - Inserted 6 records for ECP in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:10,462 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:10,979 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:11,162 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:11,180 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:11,201 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:11,317 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:11,510 - ImprovedDBScraper - INFO - Inserted 6 records for Tab. Misoprostol (Dose) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:11,534 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:12,070 - ImprovedDBScraper - INFO - Processing item Condom for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:12,406 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:12,599 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:12,894 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:12,923 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:12,936 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:13,231 - ImprovedDBScraper - INFO - Inserted 6 records for 7.1% CHLOROHEXIDINE in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:13,493 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:13,832 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:13,942 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:14,220 - ImprovedDBScraper - INFO - Processing item Condom for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:14,288 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:14,557 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:14,713 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:15,042 - ImprovedDBScraper - INFO - Inserted 6 records for MNP(SUSSET) in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:15,192 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:15,518 - ImprovedDBScraper - INFO - Processing item ECP for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:15,534 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:15,818 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:15,878 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:16,168 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:16,345 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:16,687 - ImprovedDBScraper - INFO - Inserted 6 records for Iron-Folic Acid (NOS)  in 07. Bishnandi, Araihazar, Narayanganj
+2025-02-24 18:38:16,757 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:16,795 - ImprovedDBScraper - INFO - Processing item ECP for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:17,102 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:17,118 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:17,214 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:17,606 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:17,674 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:18,033 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:18,122 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:18,472 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:18,843 - ImprovedDBScraper - INFO - Processing item ECP for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:19,044 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:19,179 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:19,366 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:19,809 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:20,037 - ImprovedDBScraper - INFO - Processing union: 08. Mahmudpur
+2025-02-24 18:38:20,038 - ImprovedDBScraper - INFO - Getting available item tabs for union 08. Mahmudpur
+2025-02-24 18:38:20,156 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:20,168 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:20,494 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:20,815 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:21,153 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:21,542 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:21,784 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:38:21,785 - ImprovedDBScraper - INFO - Processing item Shukhi for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:21,795 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:21,880 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:21,965 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:22,129 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:22,302 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:23,199 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:23,292 - ImprovedDBScraper - INFO - Processing item MNP(SUSSET) for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:23,547 - ImprovedDBScraper - INFO - Inserted 5 records for Shukhi (3rd Gen) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:23,622 - ImprovedDBScraper - INFO - Inserted 5 records for MNP(SUSSET) in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:23,623 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:24,428 - ImprovedDBScraper - INFO - Processing item Iron-Folic Acid (NOS)  for 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:24,767 - ImprovedDBScraper - INFO - Inserted 5 records for Iron-Folic Acid (NOS)  in 10. Uchitpura, Araihazar, Narayanganj
+2025-02-24 18:38:24,806 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:24,859 - ImprovedDBScraper - INFO - Processing union: 11. Khagkanda
+2025-02-24 18:38:24,860 - ImprovedDBScraper - INFO - Getting available item tabs for union 11. Khagkanda
+2025-02-24 18:38:25,148 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill (Total) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:25,153 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:38:25,154 - ImprovedDBScraper - INFO - Processing item Shukhi for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:25,503 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:26,345 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:26,666 - ImprovedDBScraper - INFO - Inserted 5 records for Oral Pill Apon in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:26,830 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:27,106 - ImprovedDBScraper - INFO - Processing union: 11. Khagkanda
+2025-02-24 18:38:27,106 - ImprovedDBScraper - INFO - Getting available item tabs for union 11. Khagkanda
+2025-02-24 18:38:27,173 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:27,394 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:38:27,394 - ImprovedDBScraper - INFO - Processing item Shukhi for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:27,745 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:27,817 - ImprovedDBScraper - INFO - Processing union: 11. Khagkanda
+2025-02-24 18:38:27,826 - ImprovedDBScraper - INFO - Getting available item tabs for union 11. Khagkanda
+2025-02-24 18:38:27,984 - ImprovedDBScraper - INFO - Processing item Condom for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:28,112 - ImprovedDBScraper - INFO - Found 12 item tabs
+2025-02-24 18:38:28,112 - ImprovedDBScraper - INFO - Processing item Shukhi for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:28,285 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:28,334 - ImprovedDBScraper - INFO - Inserted 5 records for Condom in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:28,460 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:28,651 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:28,689 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:28,909 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:29,049 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:29,225 - ImprovedDBScraper - INFO - Inserted 5 records for Injectables (Vials) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:29,380 - ImprovedDBScraper - INFO - Processing item Shukhi (3rd Gen) for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:29,750 - ImprovedDBScraper - INFO - Inserted 6 records for Shukhi (3rd Gen) in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:30,003 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:30,153 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:30,370 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:30,418 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:30,485 - ImprovedDBScraper - INFO - Inserted 5 records for AD Syringe (1ML) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:30,488 - ImprovedDBScraper - INFO - Processing item Oral Pill (Total) for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:30,752 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:30,803 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill (Total) in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:31,090 - ImprovedDBScraper - INFO - Processing item ECP for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:31,423 - ImprovedDBScraper - INFO - Inserted 5 records for ECP in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:31,528 - ImprovedDBScraper - INFO - Processing item Condom for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:31,543 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:31,861 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:31,880 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:32,159 - ImprovedDBScraper - INFO - Processing item Oral Pill Apon for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:32,247 - ImprovedDBScraper - INFO - Processing item Tab. Misoprostol (Dose) for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:32,494 - ImprovedDBScraper - INFO - Inserted 6 records for Oral Pill Apon in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:32,561 - ImprovedDBScraper - INFO - Inserted 5 records for Tab. Misoprostol (Dose) in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:32,729 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:32,879 - ImprovedDBScraper - INFO - Processing item Condom for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:33,080 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:33,184 - ImprovedDBScraper - INFO - Processing item 7.1% CHLOROHEXIDINE for 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:33,213 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:33,509 - ImprovedDBScraper - INFO - Inserted 5 records for 7.1% CHLOROHEXIDINE in 08. Mahmudpur, Araihazar, Narayanganj
+2025-02-24 18:38:33,681 - ImprovedDBScraper - INFO - Processing item Condom for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:33,785 - ImprovedDBScraper - INFO - Processing item AD Syringe (1ML) for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:34,034 - ImprovedDBScraper - INFO - Inserted 6 records for Condom in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:34,136 - ImprovedDBScraper - INFO - Inserted 6 records for AD Syringe (1ML) in 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:34,494 - ImprovedDBScraper - INFO - Processing item Injectables (Vials) for 11. Khagkanda, Araihazar, Narayanganj
+2025-02-24 18:38:34,842 - ImprovedDBScraper - INFO - Inserted 6 records for Injectables (Vials) in 11. Khagkanda, Araihazar, Narayanganj
