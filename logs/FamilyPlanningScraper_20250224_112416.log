@@ -1,9 +1,0 @@
-2025-02-24 11:24:16,703 - FamilyPlanningScraper - INFO - Initializing session by accessing https://elmis.dgfp.gov.bd/dgfplmis_reports/sdpdataviewer/form2_view.php
-2025-02-24 11:24:17,965 - FamilyPlanningScraper - INFO - Successfully initialized session
-2025-02-24 11:24:17,967 - FamilyPlanningScraper - INFO - Fetching warehouses list
-2025-02-24 11:24:19,716 - FamilyPlanningScraper - INFO - Successfully parsed 23 warehouses from JavaScript
-2025-02-24 11:24:19,718 - FamilyPlanningScraper - INFO - Found 23 warehouses
-2025-02-24 11:24:19,720 - FamilyPlanningScraper - INFO - Generated 0 year-month combinations to process
-2025-02-24 11:24:19,721 - FamilyPlanningScraper - ERROR - Warehouse '12' not found
-2025-02-24 11:24:19,721 - FamilyPlanningScraper - INFO - Available warehouses (first 5): Bandarban RWH (ID: WH-011), Barishal RWH (ID: WH-022), Bhola RWH (ID: WH-001), Bogura RWH (ID: WH-018), Chattogram RWH (ID: WH-019)...
-2025-02-24 11:24:19,722 - FamilyPlanningScraper - WARNING - No summary log provided for statistics generation

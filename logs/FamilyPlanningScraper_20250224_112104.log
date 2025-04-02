@@ -1,8 +1,0 @@
-2025-02-24 11:21:04,756 - FamilyPlanningScraper - INFO - Initializing session by accessing https://elmis.dgfp.gov.bd/dgfplmis_reports/sdpdataviewer/form2_view.php
-2025-02-24 11:21:06,026 - FamilyPlanningScraper - INFO - Successfully initialized session
-2025-02-24 11:21:06,027 - FamilyPlanningScraper - INFO - Fetching warehouses list
-2025-02-24 11:21:07,734 - FamilyPlanningScraper - INFO - Successfully parsed 23 warehouses from JavaScript
-2025-02-24 11:21:07,736 - FamilyPlanningScraper - INFO - Found 23 warehouses
-2025-02-24 11:21:07,737 - FamilyPlanningScraper - INFO - Generated 0 year-month combinations to process
-2025-02-24 11:21:07,739 - FamilyPlanningScraper - ERROR - Warehouse '12' not found
-2025-02-24 11:21:07,740 - FamilyPlanningScraper - WARNING - No summary log provided for statistics generation

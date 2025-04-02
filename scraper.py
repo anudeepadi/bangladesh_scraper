@@ -1,345 +1,475 @@
 import requests
+from bs4 import BeautifulSoup
+import pandas as pd
 import json
 import time
-import pandas as pd
-from datetime import datetime
 from pathlib import Path
-import re
 import logging
-import concurrent.futures
-import calendar
-import random
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
-from bs4 import BeautifulSoup
+from datetime import datetime
+import urllib.parse
+import re
 
-from config import ITEMS
-from utils import setup_logging
-
-class FamilyPlanningDataFetcher:
-    def __init__(self, start_date="2016-12", end_date="2025-01", max_workers=1, max_retries=5):
-        self.base_url = "https://elmis.dgfp.gov.bd/dgfplmis_reports/"
-        self.scmbd_url = "https://scmpbd.org/scip/"
-        self.session = self._create_retry_session()
+class FamilyPlanningLocationScraper:
+    def __init__(self, base_url="https://elmis.dgfp.gov.bd/dgfplmis_reports", output_dir="location_data"):
+        self.base_url = base_url
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(exist_ok=True, parents=True)
+        
+        # Session for requests
+        self.session = requests.Session()
+        
+        # Common headers to mimic browser
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36',
-            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            'Accept': 'application/json, text/javascript, */*; q=0.01',
-            'X-Requested-With': 'XMLHttpRequest',
-            'Origin': 'https://elmis.dgfp.gov.bd',
-            'Referer': 'https://elmis.dgfp.gov.bd/dgfplmis_reports/sdpdataviewer/form2_view.php'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
         }
         
-        # Parse start and end dates
-        self.start_date = pd.to_datetime(start_date)
-        self.end_date = pd.to_datetime(end_date)
-        
-        # Set up concurrent processing
-        self.max_workers = max_workers
-        self.max_retries = max_retries
-        
         # Set up logging
-        self.logger = setup_logging("FamilyPlanningScraper")
+        self.logger = self.setup_logging()
         
-        # Get items from config
-        self.items = ITEMS
+        # Target month and year
+        self.month_name = "December"
+        self.month_num = 12
+        self.year = 2024
         
-        # Initialize warehouse list
+        # Storage for extracted data
         self.warehouses = []
-        self.initialize_session()
-        
-    def initialize_session(self):
-        """Initialize the session by accessing the main page and getting warehouses"""
-        try:
-            # First access the main page to get cookies
-            main_url = f"{self.base_url}sdpdataviewer/form2_view.php"
-            self.logger.info(f"Initializing session by accessing {main_url}")
-            
-            response = self._make_request('GET', main_url)
-            if not response:
-                self.logger.error("Failed to initialize session")
-                return
-                
-            self.logger.info("Successfully initialized session")
-            
-            # Now get the warehouses list
-            self.warehouses = self.get_warehouses()
-            self.logger.info(f"Found {len(self.warehouses)} warehouses")
-            
-        except Exception as e:
-            self.logger.error(f"Error initializing session: {str(e)}")
-
-    def _create_retry_session(self):
-        """Create a session with retry logic"""
-        session = requests.Session()
-        retry_strategy = Retry(
-            total=3,  # number of retries
-            backoff_factor=1,  # wait 1, 2, 4 seconds between retries
-            status_forcelist=[500, 502, 503, 504, 404],  # status codes to retry on
-        )
-        adapter = HTTPAdapter(max_retries=retry_strategy)
-        session.mount("http://", adapter)
-        session.mount("https://", adapter)
-        return session
-
-    def _make_request(self, method: str, url: str, **kwargs):
-        """Make a request with error handling and retries"""
-        max_retries = self.max_retries
-        for attempt in range(max_retries):
-            try:
-                response = self.session.request(method, url, **kwargs, timeout=30)
-                response.raise_for_status()
-                return response
-            except requests.exceptions.RequestException as e:
-                self.logger.warning(f"Request failed (attempt {attempt+1}/{max_retries}): {str(e)}")
-                if kwargs.get('data'):
-                    self.logger.debug(f"Request data: {kwargs['data']}")
-                if 'response' in locals():
-                    self.logger.debug(f"Response status code: {response.status_code}")
-                    if hasattr(response, 'text'):
-                        self.logger.debug(f"Response content snippet: {response.text[:200]}...")
-                
-                if attempt == max_retries - 1:
-                    self.logger.error(f"Request failed after {max_retries} attempts")
-                    return None
-                
-                # Exponential backoff with jitter
-                wait_time = (2 ** attempt) + (random.random() * attempt)
-                self.logger.info(f"Waiting {wait_time:.2f} seconds before retry...")
-                time.sleep(wait_time)
-        
-        return None
-
-    def get_warehouses(self):
-        """Get list of all warehouses"""
-        self.logger.info("Fetching warehouses list")
-        
-        # First try the direct approach
-        try:
-            response = self._make_request('GET', f"{self.base_url}sdpdataviewer/form2_view.php")
-            if response:
-                soup = BeautifulSoup(response.text, 'html.parser')
-                warehouse_select = soup.find('select', {'id': 'cmbWH'})
-                
-                if warehouse_select:
-                    warehouses = []
-                    for option in warehouse_select.find_all('option'):
-                        value = option.get('value')
-                        if value and value != 'All':
-                            warehouses.append({
-                                'whrec_id': value,
-                                'wh_name': option.text.strip()
-                            })
-                    
-                    if warehouses:
-                        self.logger.info(f"Found {len(warehouses)} warehouses from dropdown")
-                        return warehouses
-        except Exception as e:
-            self.logger.warning(f"Error fetching warehouses from dropdown: {str(e)}")
-        
-        # Fallback to the JavaScript parsing approach
-        try:
-            response = self._make_request('GET', "https://scmpbd.org/scip/lmis/form2_view.php")
-            if not response:
-                self.logger.error("Failed to get warehouses list from scmpbd.org")
-                return self._fallback_warehouses()
-                
-            warehouse_match = re.search(r'gWarehouseListAll\s*=\s*JSON\.parse\(\'(.*?)\'\);', response.text)
-            if warehouse_match:
-                warehouses = json.loads(warehouse_match.group(1))
-                self.logger.info(f"Successfully parsed {len(warehouses)} warehouses from JavaScript")
-                return warehouses
-            
-            self.logger.error("Could not find warehouses in the response")
-            return self._fallback_warehouses()
-            
-        except Exception as e:
-            self.logger.error(f"Error parsing warehouse data: {str(e)}")
-            return self._fallback_warehouses()
-
-    def _fallback_warehouses(self):
-        """Return a fallback list of warehouses if we can't get them from the site"""
-        self.logger.warning("Using fallback warehouse list")
-        warehouses = [
-            {"whrec_id": "WH-011", "wh_name": "Bandarban RWH"},
-            {"whrec_id": "WH-022", "wh_name": "Barishal RWH"},
-            {"whrec_id": "WH-001", "wh_name": "Bhola RWH"},
-            {"whrec_id": "WH-018", "wh_name": "Bogura RWH"},
-            {"whrec_id": "WH-019", "wh_name": "Chattogram RWH"},
-            {"whrec_id": "WH-020", "wh_name": "Cox's Bazar RWH"},
-            {"whrec_id": "WH-014", "wh_name": "Cumilla RWH"},
-            {"whrec_id": "WH-002", "wh_name": "Dhaka CWH"},
-            {"whrec_id": "WH-021", "wh_name": "Dinajpur RWH"},
-            {"whrec_id": "WH-003", "wh_name": "Faridpur RWH"},
-            {"whrec_id": "WH-004", "wh_name": "Jamalpur RWH"},
-            {"whrec_id": "WH-005", "wh_name": "Jashore RWH"},
-            {"whrec_id": "WH-006", "wh_name": "Khulna RWH"},
-            {"whrec_id": "WH-007", "wh_name": "Kushtia RWH"},
-            {"whrec_id": "WH-008", "wh_name": "Mymensingh RWH"},
-            {"whrec_id": "WH-009", "wh_name": "Noakhali RWH"},
-            {"whrec_id": "WH-010", "wh_name": "Pabna RWH"},
-            {"whrec_id": "WH-012", "wh_name": "Patuakhali RWH"},
-            {"whrec_id": "WH-013", "wh_name": "Rajshahi RWH"},
-            {"whrec_id": "WH-015", "wh_name": "Rangamati RWH"},
-            {"whrec_id": "WH-016", "wh_name": "Rangpur RWH"},
-            {"whrec_id": "WH-017", "wh_name": "Sylhet RWH"},
-            {"whrec_id": "WH-023", "wh_name": "Tangail RWH"}
-        ]
-        return warehouses
-
-    # Import methods from data_fetcher.py
-    from data_fetcher import (
-        get_upazilas, get_unions, get_item_tab, get_item_data, scrape_item_data, direct_download_excel
-    )
+        self.districts = {}
+        self.upazilas = {}
+        self.unions = {}
+        self.combinations = []
     
-    # Import methods from data_processor.py
-    from data_processor import (
-        process_union_data, _process_single_item, process_upazila, process_warehouse_month, process_month
-    )
+    def setup_logging(self):
+        """Set up logging configuration"""
+        log_dir = Path("logs")
+        log_dir.mkdir(exist_ok=True)
+        
+        logger = logging.getLogger("LocationScraper")
+        logger.setLevel(logging.INFO)
+        
+        # Clear existing handlers
+        if logger.handlers:
+            logger.handlers.clear()
+        
+        # File handler
+        file_handler = logging.FileHandler(log_dir / f"scraper_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
+        file_handler.setLevel(logging.INFO)
+        
+        # Console handler
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(logging.INFO)
+        
+        # Create formatter
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(formatter)
+        console_handler.setFormatter(formatter)
+        
+        # Add handlers
+        logger.addHandler(file_handler)
+        logger.addHandler(console_handler)
+        
+        return logger
     
-    def generate_date_ranges(self):
-        """Generate all year-month combinations in the date range"""
-        # Ensure we have a full month by adjusting dates
-        start_date = self.start_date.replace(day=1)
-        
-        # Add 1 day to end date to ensure the last month is included
-        if self.end_date.day < 28:  # If it's not the end of month
-            end_date = self.end_date.replace(day=28)
-        else:
-            end_date = self.end_date
-        
-        # Generate monthly date range
-        months = pd.date_range(start=start_date, end=end_date, freq='MS')  # 'MS' is month start frequency
-        
-        # Convert to year-month tuples
-        date_ranges = [(str(date.year), str(date.month).zfill(2)) for date in months]
-        
-        # Print the date ranges for debugging
-        self.logger.info(f"Date ranges: {date_ranges}")
-        
-        return date_ranges
-
-    def fetch_all_data(self, resume_from=None, specific_warehouse=None):
-        """Fetch all data for specified date range with option to resume"""
-        # Create output directory
-        output_dir = Path("family_planning_data")
-        output_dir.mkdir(exist_ok=True)
-        
-        # Generate date ranges
-        date_ranges = self.generate_date_ranges()
-        self.logger.info(f"Generated {len(date_ranges)} year-month combinations to process")
-        
-        # Option to resume from a specific date
-        if resume_from:
-            resume_year, resume_month = resume_from.split('-')
-            date_ranges = [d for d in date_ranges if (d[0] > resume_year) or (d[0] == resume_year and d[1] >= resume_month)]
-            self.logger.info(f"Resuming from {resume_from}, {len(date_ranges)} year-month combinations remaining")
-        
-        # Filter warehouses if a specific one is requested
-        if specific_warehouse:
-            original_warehouses = self.warehouses.copy()
+    def extract_form_options(self, form_url):
+        """Extract dropdown options from the report form page"""
+        try:
+            response = self.session.get(form_url, headers=self.headers)
+            if response.status_code != 200:
+                self.logger.error(f"Failed to access form page. Status code: {response.status_code}")
+                return False
             
-            # Check if specific_warehouse is numeric (ID) or a name
-            found = False
+            soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Try exact warehouse ID match
-            filtered_warehouses = [wh for wh in self.warehouses if 
-                                specific_warehouse == wh['whrec_id']]
-            
-            # Try partial warehouse ID match (e.g., "11" matching "WH-011")
-            if not filtered_warehouses:
-                filtered_warehouses = [wh for wh in self.warehouses if 
-                                    specific_warehouse in wh['whrec_id']]
-            
-            # Try name-based search
-            if not filtered_warehouses:
-                filtered_warehouses = [wh for wh in self.warehouses if 
-                                    specific_warehouse.lower() in wh['wh_name'].lower()]
-            
-            if filtered_warehouses:
-                self.warehouses = filtered_warehouses
-                self.logger.info(f"Filtering to process only warehouse: {self.warehouses[0]['wh_name']} (ID: {self.warehouses[0]['whrec_id']})")
-                print(f"Processing only warehouse: {self.warehouses[0]['wh_name']} (ID: {self.warehouses[0]['whrec_id']})")
+            # Find warehouse select element
+            warehouse_select = soup.find('select', {'name': 'warehouse'})
+            if warehouse_select:
+                for option in warehouse_select.find_all('option'):
+                    if option.get('value') and option.get('value') != '':
+                        self.warehouses.append({
+                            'id': option.get('value'),
+                            'name': option.text.strip()
+                        })
+                self.logger.info(f"Extracted {len(self.warehouses)} warehouses")
             else:
-                self.logger.error(f"Warehouse '{specific_warehouse}' not found")
-                self.logger.info(f"Available warehouses:")
-                for wh in self.warehouses:
-                    self.logger.info(f"  - {wh['wh_name']} (ID: {wh['whrec_id']})")
-                print(f"Warehouse '{specific_warehouse}' not found. See logs for available warehouses.")
+                self.logger.warning("Warehouse select element not found")
+            
+            # We'll save what we have for now
+            return len(self.warehouses) > 0
+            
+        except Exception as e:
+            self.logger.error(f"Error extracting form options: {str(e)}")
+            return False
+    
+    def get_district_options(self, warehouse_id):
+        """Get districts for a warehouse using the report form's dynamic options"""
+        district_url = f"{self.base_url}/ajax/get_district_options.php?warehouse_id={warehouse_id}"
+        
+        try:
+            response = self.session.get(district_url, headers=self.headers)
+            if response.status_code != 200:
+                self.logger.error(f"Failed to get districts. Status code: {response.status_code}")
                 return []
+            
+            # Response may be HTML options or JSON
+            try:
+                # Try parsing as JSON
+                data = response.json()
+                districts = []
+                for item in data:
+                    districts.append({
+                        'id': item['id'],
+                        'name': item['name']
+                    })
+            except:
+                # Try parsing as HTML
+                soup = BeautifulSoup(response.text, 'html.parser')
+                districts = []
+                for option in soup.find_all('option'):
+                    if option.get('value') and option.get('value') != '':
+                        districts.append({
+                            'id': option.get('value'),
+                            'name': option.text.strip()
+                        })
+            
+            self.districts[warehouse_id] = districts
+            self.logger.info(f"Found {len(districts)} districts for warehouse {warehouse_id}")
+            return districts
+            
+        except Exception as e:
+            self.logger.error(f"Error getting district options: {str(e)}")
+            return []
+    
+    def get_upazila_options(self, warehouse_id, district_id):
+        """Get upazilas for a warehouse and district"""
+        upazila_url = f"{self.base_url}/ajax/get_upazila_options.php?warehouse_id={warehouse_id}&district_id={district_id}"
         
-        # Create a summary log
-        summary_log = []
+        try:
+            response = self.session.get(upazila_url, headers=self.headers)
+            if response.status_code != 200:
+                self.logger.error(f"Failed to get upazilas. Status code: {response.status_code}")
+                return []
+            
+            # Parse response (similar to districts)
+            try:
+                data = response.json()
+                upazilas = []
+                for item in data:
+                    upazilas.append({
+                        'id': item['id'],
+                        'name': item['name']
+                    })
+            except:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                upazilas = []
+                for option in soup.find_all('option'):
+                    if option.get('value') and option.get('value') != '':
+                        upazilas.append({
+                            'id': option.get('value'),
+                            'name': option.text.strip()
+                        })
+            
+            key = f"{warehouse_id}_{district_id}"
+            self.upazilas[key] = upazilas
+            self.logger.info(f"Found {len(upazilas)} upazilas for district {district_id}")
+            return upazilas
+            
+        except Exception as e:
+            self.logger.error(f"Error getting upazila options: {str(e)}")
+            return []
+    
+    def get_union_options(self, warehouse_id, upazila_id):
+        """Get unions for a warehouse and upazila"""
+        union_url = f"{self.base_url}/ajax/get_union_options.php?warehouse_id={warehouse_id}&upazila_id={upazila_id}"
         
-        # Process each month - either sequentially or with concurrency
-        if self.max_workers > 1:
-            self.logger.info(f"Using concurrent processing with {self.max_workers} workers")
-            with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-                future_to_date = {executor.submit(self.process_month, date_range, output_dir): date_range for date_range in date_ranges}
-                
-                for future in concurrent.futures.as_completed(future_to_date):
-                    date_range = future_to_date[future]
-                    try:
-                        monthly_summary = future.result()
-                        summary_log.append(monthly_summary)
-                        self.logger.info(f"Completed processing for {date_range[0]}-{date_range[1]}")
-                    except Exception as e:
-                        self.logger.error(f"Error processing {date_range[0]}-{date_range[1]}: {str(e)}")
-        else:
-            self.logger.info("Using sequential processing")
-            for date_range in date_ranges:
-                try:
-                    monthly_summary = self.process_month(date_range, output_dir)
-                    summary_log.append(monthly_summary)
-                except Exception as e:
-                    self.logger.error(f"Error processing {date_range[0]}-{date_range[1]}: {str(e)}")
+        try:
+            response = self.session.get(union_url, headers=self.headers)
+            if response.status_code != 200:
+                self.logger.error(f"Failed to get unions. Status code: {response.status_code}")
+                return []
+            
+            # Parse response
+            try:
+                data = response.json()
+                unions = []
+                for item in data:
+                    unions.append({
+                        'id': item['id'],
+                        'name': item['name']
+                    })
+            except:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                unions = []
+                for option in soup.find_all('option'):
+                    if option.get('value') and option.get('value') != '':
+                        unions.append({
+                            'id': option.get('value'),
+                            'name': option.text.strip()
+                        })
+            
+            key = f"{warehouse_id}_{upazila_id}"
+            self.unions[key] = unions
+            self.logger.info(f"Found {len(unions)} unions for upazila {upazila_id}")
+            return unions
+            
+        except Exception as e:
+            self.logger.error(f"Error getting union options: {str(e)}")
+            return []
+    
+    def collect_all_locations(self):
+        """Collect all location combinations"""
+        # First, get base form to extract warehouses
+        form_url = f"{self.base_url}/report_form.php?report_id=sdp_stockout_status_by_upazila"
         
-        # Save complete summary log
-        with open(output_dir / 'fetch_summary.json', 'w', encoding='utf-8') as f:
-            json.dump(summary_log, f, indent=2)
-        
-        self.logger.info("Data collection complete!")
-        return summary_log
-
-    def generate_stats(self, summary_log):
-        """Generate and print statistics about the fetched data"""
-        if not summary_log:
-            self.logger.warning("No summary log provided for statistics generation")
+        if not self.extract_form_options(form_url):
+            self.logger.error("Failed to extract form options. Cannot proceed.")
             return
         
-        total_warehouses = 0
-        total_upazilas = 0
-        total_unions = 0
-        total_files = 0
-        total_errors = 0
+        # If no warehouses found, try alternative approach with predefined warehouses
+        if not self.warehouses:
+            self.logger.warning("No warehouses found from form. Using alternative approach.")
+            # Add default "All" warehouse as a fallback
+            self.warehouses = [{'id': 'all', 'name': 'All'}]
         
-        for month in summary_log:
-            self.logger.info(f"\nMonth: {month['year']}-{month['month']}")
+        # Process each warehouse
+        for warehouse in self.warehouses:
+            warehouse_id = warehouse['id']
+            warehouse_name = warehouse['name']
             
-            month_warehouses = len(month['warehouses'])
-            month_upazilas = sum(wh.get('upazila_count', 0) for wh in month['warehouses'])
-            month_unions = sum(wh.get('union_count', 0) for wh in month['warehouses'])
-            month_files = sum(wh.get('data_files', 0) for wh in month['warehouses'])
-            month_errors = sum(len(wh.get('errors', [])) for wh in month['warehouses'])
+            self.logger.info(f"Processing warehouse: {warehouse_name}")
             
-            self.logger.info(f"  Warehouses: {month_warehouses}")
-            self.logger.info(f"  Upazilas: {month_upazilas}")
-            self.logger.info(f"  Unions: {month_unions}")
-            self.logger.info(f"  Data files: {month_files}")
-            self.logger.info(f"  Errors: {month_errors}")
+            # Get districts
+            districts = self.get_district_options(warehouse_id)
             
-            total_warehouses += month_warehouses
-            total_upazilas += month_upazilas
-            total_unions += month_unions
-            total_files += month_files
-            total_errors += month_errors
+            # If no districts, add warehouse-only combination
+            if not districts:
+                self.combinations.append({
+                    'warehouse_id': warehouse_id,
+                    'warehouse_name': warehouse_name,
+                    'district_id': 'all',
+                    'district_name': 'All',
+                    'upazila_id': None,
+                    'upazila_name': None,
+                    'union_id': None,
+                    'union_name': None
+                })
+                continue
+            
+            # Process each district
+            for district in districts:
+                district_id = district['id']
+                district_name = district['name']
+                
+                self.logger.info(f"Processing district: {district_name}")
+                
+                # Get upazilas
+                upazilas = self.get_upazila_options(warehouse_id, district_id)
+                
+                # If no upazilas, add warehouse-district combination
+                if not upazilas:
+                    self.combinations.append({
+                        'warehouse_id': warehouse_id,
+                        'warehouse_name': warehouse_name,
+                        'district_id': district_id,
+                        'district_name': district_name,
+                        'upazila_id': None,
+                        'upazila_name': None,
+                        'union_id': None,
+                        'union_name': None
+                    })
+                    continue
+                
+                # Process each upazila
+                for upazila in upazilas:
+                    upazila_id = upazila['id']
+                    upazila_name = upazila['name']
+                    
+                    self.logger.info(f"Processing upazila: {upazila_name}")
+                    
+                    # Get unions
+                    unions = self.get_union_options(warehouse_id, upazila_id)
+                    
+                    # If no unions, add warehouse-district-upazila combination
+                    if not unions:
+                        self.combinations.append({
+                            'warehouse_id': warehouse_id,
+                            'warehouse_name': warehouse_name,
+                            'district_id': district_id,
+                            'district_name': district_name,
+                            'upazila_id': upazila_id,
+                            'upazila_name': upazila_name,
+                            'union_id': None,
+                            'union_name': None
+                        })
+                        continue
+                    
+                    # Process each union
+                    for union in unions:
+                        union_id = union['id']
+                        union_name = union['name']
+                        
+                        # Add complete combination
+                        self.combinations.append({
+                            'warehouse_id': warehouse_id,
+                            'warehouse_name': warehouse_name,
+                            'district_id': district_id,
+                            'district_name': district_name,
+                            'upazila_id': upazila_id,
+                            'upazila_name': upazila_name,
+                            'union_id': union_id,
+                            'union_name': union_name
+                        })
+                    
+                    # Rate limit to avoid overwhelming the server
+                    time.sleep(0.5)
+                
+                # Rate limit between districts
+                time.sleep(1)
+    
+    def generate_report_urls(self):
+        """Generate report URLs for all combinations"""
+        if not self.combinations:
+            self.logger.warning("No combinations found to generate URLs")
+            return
         
-        self.logger.info("\nOverall Summary:")
-        self.logger.info(f"  Total months processed: {len(summary_log)}")
-        if len(summary_log) > 0:
-            self.logger.info(f"  Average warehouses per month: {total_warehouses / len(summary_log):.2f}")
-            self.logger.info(f"  Average upazilas per month: {total_upazilas / len(summary_log):.2f}")
-            self.logger.info(f"  Average unions per month: {total_unions / len(summary_log):.2f}")
-            self.logger.info(f"  Average data files per month: {total_files / len(summary_log):.2f}")
-        self.logger.info(f"  Total files collected: {total_files}")
-        self.logger.info(f"  Total errors encountered: {total_errors}")
+        # Add month and year info to all combinations
+        for combo in self.combinations:
+            combo['month'] = self.month_num
+            combo['month_name'] = self.month_name
+            combo['year'] = self.year
+        
+        # Generate URLs
+        report_data = []
+        for combo in self.combinations:
+            location_str = f"Warehouse : {combo['warehouse_name']}, District : {combo.get('district_name', 'All')}"
+            
+            # Add upazila and union if available
+            if combo.get('upazila_name'):
+                location_str += f", Upazila : {combo['upazila_name']}"
+            if combo.get('union_name'):
+                location_str += f", Union : {combo['union_name']}"
+            
+            # Format header list
+            header_list = [
+                f"Month : {self.month_name}, Year : {self.year}",
+                location_str,
+                "Form 2 View"
+            ]
+            
+            # Encode header list
+            encoded_headers = urllib.parse.quote(json.dumps(header_list))
+            
+            # Generate unique report name
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            report_name = f"SDP_Stock_out_Status_By_Upazila_on_{self.month_name}_{self.year}_{timestamp}"
+            
+            # Build URL
+            report_url = (
+                f"{self.base_url}/report/print_master_dynamic_column.php"
+                f"?jBaseUrl={self.base_url}/"
+                f"&lan=en-GB"
+                f"&reportSaveName={report_name}"
+                f"&reportHeaderList={encoded_headers}"
+                f"&chart=-1"
+            )
+            
+            # Add URL to combo data
+            combo_with_url = combo.copy()
+            combo_with_url['report_url'] = report_url
+            report_data.append(combo_with_url)
+        
+        # Save URLs to CSV
+        df = pd.DataFrame(report_data)
+        output_file = self.output_dir / f"location_combinations_dec2024.csv"
+        df.to_csv(output_file, index=False)
+        
+        self.logger.info(f"Generated and saved {len(report_data)} report URLs to {output_file}")
+        
+        # Also save as JSON
+        json_output = self.output_dir / f"location_combinations_dec2024.json"
+        with open(json_output, 'w', encoding='utf-8') as f:
+            json.dump(report_data, f, indent=4)
+        
+        self.logger.info(f"Saved JSON version to {json_output}")
+    
+    def run(self):
+        """Run the entire scraping process"""
+        self.logger.info("Starting location scraping process")
+        
+        # Collect all location combinations
+        self.collect_all_locations()
+        
+        # Generate report URLs
+        self.generate_report_urls()
+        
+        self.logger.info("Completed location scraping process")
+
+def extract_locations_from_url(example_url):
+    """Analyze the example URL to identify location parameters"""
+    # Extract the reportHeaderList parameter
+    match = re.search(r'reportHeaderList=\[(.*?)\]', example_url)
+    if not match:
+        return {}
+    
+    # Decode the header list
+    encoded_headers = match.group(1)
+    # Replace URL-encoded quotes and brackets
+    encoded_headers = encoded_headers.replace('%22', '"').replace('%5B', '[').replace('%5D', ']')
+    
+    # Extract location information from the second header item which contains location info
+    try:
+        headers = json.loads(f"[{encoded_headers}]")
+        location_info = headers[1] if len(headers) > 1 else ""
+        
+        # Parse location info
+        loc_data = {}
+        
+        # Extract warehouse
+        wh_match = re.search(r'Warehouse\s*:\s*(.*?)(?:,|$)', location_info)
+        if wh_match:
+            loc_data['warehouse'] = wh_match.group(1).strip()
+        
+        # Extract district
+        dist_match = re.search(r'District\s*:\s*(.*?)(?:,|$)', location_info)
+        if dist_match:
+            loc_data['district'] = dist_match.group(1).strip()
+        
+        # Extract upazila
+        upz_match = re.search(r'Upazila\s*:\s*(.*?)(?:,|$)', location_info)
+        if upz_match:
+            loc_data['upazila'] = upz_match.group(1).strip()
+        
+        # Extract union
+        union_match = re.search(r'Union\s*:\s*(.*?)(?:,|$)', location_info)
+        if union_match:
+            loc_data['union'] = union_match.group(1).strip()
+        
+        return loc_data
+    except:
+        return {}
+
+def main():
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Scrape location combinations from MOHFW portal")
+    parser.add_argument('--output', type=str, default="location_data",
+                        help="Output directory for location data (default: location_data)")
+    parser.add_argument('--example-url', type=str, 
+                        help="Example URL to analyze for location pattern (optional)")
+    
+    args = parser.parse_args()
+    
+    # If example URL provided, analyze it first
+    if args.example_url:
+        print("Analyzing example URL for location pattern...")
+        locations = extract_locations_from_url(args.example_url)
+        print(f"Detected locations: {locations}")
+    
+    # Create and run scraper
+    scraper = FamilyPlanningLocationScraper(output_dir=args.output)
+    scraper.run()
+
+if __name__ == "__main__":
+    main()
